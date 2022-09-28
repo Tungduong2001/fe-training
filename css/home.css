@@ -1,0 +1,154 @@
+@font-face {
+    font-family: Centra No1;
+    src: url("../centrano1-and-no2-font/CentraNo1-Book.ttf");
+}
+
+video {
+    width: 1440px;
+    height: 660px;
+    position: fixed;
+    object-fit: cover;
+}
+header{
+    width: 1440px;
+    height: 660px;
+    margin: auto;
+}
+
+.header-top{
+    position: relative;
+    display: flex;
+}
+.header-button{
+    position: relative;
+}
+.logo{
+    height: 66px;
+    width: 146.5548095703125px;
+    margin-left: 156px;
+    margin-top: 2px;
+}
+
+.navbar-rignt{
+    display: flex;
+}
+
+.insight{
+    width: 55px;
+    height: 28px;
+    margin-left: 573.45px;
+    display: flex;
+    margin-top: 7px;
+}
+.insight p{
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.insight a{
+    width: 10px;
+    height: 5px;
+    margin-left: 9px;
+    margin-top: 18px;
+    color: #FFFFFF;
+}
+.administration{
+    display: flex;
+    width: 128px;
+    height: 28px;
+    margin-left: 40px;
+    margin-top: 7px;
+}
+.administration p{
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.administration a{
+    width: 10px;
+    height: 5px;
+    margin-top: 18px;
+    margin-left: 9px;
+    color: #FFFFFF;
+}
+.profile{
+    display: flex;
+    width: 134px;
+    height: 38px;
+    border: 1px solid #ccc;
+    border-radius: 38px;
+    margin-top: 9px;
+    background-color: #FFFFFF;
+    color: #A78730;
+    margin-left: 32px;
+    margin-top: 14px;
+} 
+.profile a{
+    color: #A78730;
+    margin-top: 9px;
+    width: 10px;
+    height: 5px;
+}
+.material-symbols-outlined{
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+#person{
+    margin-left: 20.73px;
+    margin-top: 8px;
+}
+.profile p{
+    width: 47px;
+    height: 28px;
+    margin-top: 13px;
+    margin-bottom: 5px;
+    margin-left: 8.7px;
+} 
+.title{
+    width: 527px;
+    height: 91px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 91px;
+    color: #FFFFFF;
+    margin-left: 165px;
+    margin-top: 181px;
+}
+.subtilte{
+    display: flex;
+}
+
+.subtilte-1{
+    width: 262px;
+    height: 30px;
+    margin-left: 165px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.subtilte-2{
+    width: 238px;
+    height: 30px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-left: 9px;
+}
