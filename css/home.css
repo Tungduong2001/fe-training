@@ -3,15 +3,15 @@
     src: url("../centrano1-and-no2-font/CentraNo1-Book.ttf");
 }
 
+.container{
+    width: 1440px;
+    margin: auto;
+}
 video {
     width: 1440px;
     height: 660px;
     position: absolute;
     object-fit: cover;
-}
-.container{
-    width: 1440px;
-    margin: auto;
 }
 header{
     width: 1440px;
@@ -417,6 +417,9 @@ article{
     color: #FFFFFF;
     opacity: 0.7;
 }
+.footer-top a:hover{
+    color: violet;
+}
 .funding ul {
     margin-top: 76px; 
     margin-left: 210px;
@@ -463,18 +466,21 @@ article{
     opacity: 0.5;
 }
 
+.border-bottom{
+    display: none;
+}
 
 /* Responsive mobile */
 
-/* @media only screen and (max-width: 375px){
+@media only screen and (max-width: 375px){
     video {
-        width: 375px;
+        width: 100%;
         height: 328px;
         position: absolute;
         object-fit: cover;
     }
     header{
-        width: 375px;
+        width: 100%;
         height: 328px;
     }
     .logo{
@@ -657,7 +663,7 @@ article{
     }
 
     .funding ul {
-        margin-top: -25px;
+        margin-top: -60px;
         margin-left: -14px;
     }
 
@@ -674,4 +680,37 @@ article{
     .about  li {
         margin-top: 20px;
     }
-} */
+
+    .border-bottom{
+        display: block;
+        border-bottom: 1px solid #ccc;
+        width: 300px;
+        margin-top: 10px;
+        margin-left: 27px;
+    }
+
+    .border-bottom:hover{
+        color: violet;
+    }
+
+    .footer-bottom{
+        width: 375px;
+        height: 133px;
+        flex-direction: column;
+    }
+
+    .footer-bottom img{
+        margin-left: 260px;
+        margin-top: 27px;
+        margin-left: 21px;
+    }
+    .copyright p{
+        width: 298px;
+        height: 48px;
+        margin-left: 21px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+}
