@@ -8,6 +8,7 @@
 }
 .container{
     width: 1440px;
+    height: 2786px;
     margin: 0 auto;
 }
 
@@ -114,6 +115,7 @@ main{
 
 main {
     background-color: #edf8ef;
+    height: 2467px;
 }
 
 .title{
@@ -175,4 +177,244 @@ main {
     line-height: 28px;
     color: #000000;
     opacity: 0.8;
+}
+.team{
+    margin-left: 164px;
+    margin-top: 80px;
+    width: 86px;
+    height: 48px;   
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 48px;
+    color: #A78730;
+}
+.main-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.background{
+    background-color: #FFFFFF;
+    width: 248.73px;
+    height: 380.71px;
+    margin-left: 164px;
+    margin-top: 60px;
+    border-radius: 6px;
+    position: relative;
+}
+.background img{
+    position: absolute;
+    margin-top: 40.61px;
+    border-radius: 7px;
+    margin-left: 60.91px;
+    width: 320px;
+    height: 298px;
+}
+
+.content-right{
+    margin-top: 121px;
+    margin-left: 227.2px;
+}
+.content-right h2{
+    width: 232px;
+    height: 38px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    color: #000000;
+    opacity: 0.8;
+}
+.content-right img{
+    margin-top: 8px;
+    width: 26px;
+    height: 26px;
+}
+
+.content-right p{
+    width: 557px;
+    height: 156px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+    opacity: 0.8;
+}
+
+#background {
+    background-color: #FFFFFF;
+    width: 248.73px;
+    height: 380.71px;
+    margin-left: 164px;
+    margin-top: 60px;
+    border-radius: 6px;
+    position: relative;
+}
+
+#background img{
+    position: absolute;
+    margin-top: 40.61px;
+    margin-left: -131.8px;
+    border-radius: 7px;
+}
+
+.Radgivare{
+    width: 155px;
+    height: 48px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 48px;
+    color: #A78730;
+    margin-left: 164px;
+    margin-top: 74px;
+}
+
+.bg{
+    background-color: #FFFFFF;
+    width: 210px;
+    height: 274px;
+    margin-left: 164px;
+    margin-top: 54px;
+    border-radius: 6px;
+    position: relative;
+}
+
+.bg img{
+    position: absolute;
+    margin-top: 33.11px;
+    margin-left: 46px;
+    border-radius: 8px;
+    width: 209.73px;
+    height: 206.48px;
+}
+
+.advisor{
+    display: flex;
+    flex-direction: row;
+}
+
+.advisor-content{
+    margin-left: 141px;
+    margin-top: 97px;
+}
+
+.advisor-content h2{
+    width: 220px;
+    height: 32px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.advisor-content img{
+    margin-top: 15.75px;
+    width: 16.5px;
+    height: 16.5px;
+    cursor: pointer;
+}
+
+.advisor-content p {
+    width: 466px;
+    height: 78px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+    opacity: 0.8;
+    margin-top: 21.75px;
+}
+footer{
+    margin-top: -15px;
+}
+.footer-top{
+    height: 258.3636474609375px;
+    width: 1440px;
+    background-color: #292A2B;
+    margin-top: 16px;
+    display: flex;
+}
+
+.footer-top nav, ul, li, a{
+    list-style: none;
+    text-decoration: none;
+}
+.footer-top li {
+    position: relative;
+    margin-top: 30px;
+}
+
+.footer-top a {
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+.footer-top a:hover{
+    color: violet;
+}
+.funding ul {
+    margin-top: 76px; 
+    margin-left: 210px;
+}
+.logo_bottom{
+    height: 88px;
+    width: 196px;
+    margin-left: 246px;
+    margin-top: 80px;
+}
+
+.about ul {
+    margin-top: 76px; 
+    margin-left: 170px;
+}
+
+.footer-bottom{
+    width: 1440px;
+    display: flex;
+    height: 60.64px;
+    background-color: #0B0B0B;
+    color: #FFFFFF;
+}
+
+.footer-bottom img{
+    margin-left: 260px;
+    margin-top: 21.64px;
+    margin-right: 17.22px;
+}
+
+.footer-bottom a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.copyright p{
+    margin-left: 383px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-top: 12.64px;
+}
+
+@media only screen and (max-width: 375px) {
+    
 }
