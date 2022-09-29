@@ -739,4 +739,7 @@ article{
     .statistical__number{
         margin-bottom: 35px;
     }
+    .statistical__number{
+        margin-left: 22px;
+    }
 }
