@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+}
+
 @font-face {
     font-family: Centra No1;
     src: url("../centrano1-and-no2-font/CentraNo1-Book.ttf");
@@ -41,7 +45,7 @@ header{
     height: 28px;
     margin-left: 573.45px;
     display: flex;
-    margin-top: 7px;
+    margin-top: 19px;
 }
 .insight p{
     font-family: 'Centra No1';
@@ -55,7 +59,7 @@ header{
     width: 10px;
     height: 5px;
     margin-left: 9px;
-    margin-top: 18px;
+    margin-top: 2px;
     color: #FFFFFF;
 }
 .administration{
@@ -63,7 +67,7 @@ header{
     width: 128px;
     height: 28px;
     margin-left: 40px;
-    margin-top: 7px;
+    margin-top: 19px;
 }
 .administration p{
     font-family: 'Centra No1';
@@ -76,7 +80,7 @@ header{
 .administration a{
     width: 10px;
     height: 5px;
-    margin-top: 18px;
+    margin-top: 2px;
     margin-left: 9px;
     color: #FFFFFF;
 }
@@ -94,7 +98,7 @@ header{
 } 
 .profile a{
     color: #A78730;
-    margin-top: 9px;
+    margin-top: 6.5px;
     width: 10px;
     height: 5px;
 }
@@ -108,12 +112,12 @@ header{
 
 #person{
     margin-left: 20.73px;
-    margin-top: 8px;
+    margin-top: 5px;
 }
 .profile p{
     width: 47px;
     height: 28px;
-    margin-top: 13px;
+    margin-top: 8px;
     margin-bottom: 5px;
     margin-left: 8.7px;
 } 
@@ -212,7 +216,6 @@ article{
 .main__main_button{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-top: -52px;
 }
 
 .statistical{
@@ -229,11 +232,13 @@ article{
     color: #000000;
     opacity: 0.8;
     margin-left: 30px;
+    margin-bottom: 8px;
 }
 .statistical__number{
     display: grid;
     grid-template-columns: 15px 20px;
     margin-left: 30px;
+    margin-bottom: 18px;
 }
 
 .statistical__number #span1 {
@@ -351,6 +356,7 @@ article{
     color: #000000;
     opacity: 0.7;
     margin-left: 30px;
+    margin-top: 37px;
 }
 
 .visa{
@@ -464,6 +470,7 @@ article{
     line-height: 28px;
     color: #FFFFFF;
     opacity: 0.5;
+    margin-top: 12.64px;
 }
 
 .border-bottom{
@@ -566,6 +573,7 @@ article{
     .main__main_button{
         display: flex;
         flex-direction: column;
+        margin-top: 5px;
     } 
 
     #statistical{
@@ -574,37 +582,41 @@ article{
    
 
     .statistical__title h2{
-        margin-top: 18px;
         width: 84px;
         height: 28px;
         opacity: 0.8;
         margin-left: 24px;
-        margin-bottom: 0;
+        margin-bottom: 8px;
     }
 
     .statistical__number #span1 {
         color: #4350AF;
         width: 24px;
         height: 24px;
+        margin-top: -7px;
     }
     
     .statistical__number #span2 {
         color: #619D87;
         width: 24px;
         height: 24px;
+        margin-top: -7px;
+
     }
     
     .statistical__number #span3{
         color: #EB5181;
         width: 24px;
         height: 24px;
-    
+        margin-top: -7px;
     }
     
     .statistical__number #span4{
         color: #EF8A40;
         width: 24px;
         height: 24px;
+        margin-top: -7px;
+
     }
 
     .visa{
@@ -711,6 +723,20 @@ article{
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
+    } 
+    .statistical__number #p4 {
+        margin-top: -7px;
     }
-
+    .statistical__number #p3 {
+        margin-top: -7px;
+    }
+    .statistical__number #p2 {
+        margin-top: -7px;
+    }
+    .statistical__number #p1 {
+        margin-top: -7px;
+    }
+    .statistical__number{
+        margin-bottom: 35px;
+    }
 }
