@@ -1,0 +1,466 @@
+*{
+    margin: 0;
+}
+
+@font-face {
+    font-family: Centra No1;
+    src: url("../centrano1-and-no2-font/CentraNo1-Book.ttf");
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+    font-family: 'Centra No1';
+}
+
+main{
+    width: 100%;
+    background-color: #edf8ef;
+}
+.logo{
+    width: 146.67px;
+    margin-left: 170.3px;
+    margin-top: 6px;
+}
+.navbar-rignt{
+    display: flex;
+    margin-left: 779.83px;
+}
+
+.header-top{
+    display: flex;
+    width: 80px;
+}
+
+.sign-in{
+    width: 48px;
+    height: 28px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+    opacity: 0.7;
+    margin-top: 26px;
+    text-decoration: none;
+}
+.sign-in:hover{
+    color: #ccc;
+}
+
+.sign-up{
+    width: 134px;
+    height: 38px;
+    margin-top: 21px;
+    margin-left: 32px;
+    background-color: #FFFFFF;
+    opacity: 0.9;
+    border-radius: 28px;
+    text-decoration: none;
+}
+
+.sign-up p{
+    width: 54px;
+    height: 28px;
+    margin-top: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #A78730;
+    margin-left: 40px;
+}
+.sign-up:hover{
+    text-decoration: underline 1px solid #A78730;
+    background-color: #fafafa;
+}
+
+main {
+    background-color: #edf8ef;
+    height: 3339px;
+}
+
+.hr{
+    border-bottom: 1px solid #ccc;
+    margin-top: 0px;
+}
+.hr:hover{
+    cursor: pointer;
+    border-bottom: 1px solid violet;
+}
+
+.title{
+    margin-top: 56px;
+    width: 304px;
+    height: 39px;
+    margin-left: 112px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 39px;
+    color: #000000;
+    opacity: 0.8;
+}
+.statistical__title{
+    display: flex;
+    flex-direction: row;
+}
+
+.statistical__title span{
+    margin-left: 120px;
+    cursor: pointer;
+    margin-top: 29px;
+}
+.statistical-1{
+    margin-top: 56px;
+    margin-left: 109px;
+    border-top: 3px solid #4350AF;
+    width: 287px;
+    height: 285px;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+.statistical__title h2{
+    width: 115px;
+    height: 28px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+    opacity: 0.8;
+    margin-top: 25px;
+    margin-left: 23px;
+}
+
+.statistical__number{
+    display: flex;
+    flex-direction: row;
+}
+
+.statistical__number #span1 {
+    color: #4350AF;
+    width: 30px;
+    height: 30px;
+    margin-top: 8px;
+    margin-left: 23px;
+    font-size: 35px;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.statistical__number #span2 {
+    color: #619D87;
+    width: 30px;
+    height: 30px;
+    margin-top: 8px;
+    margin-left: 23px;
+    font-size: 35px;
+
+}
+
+.statistical__number #span3{
+    color: #EB5181;
+    width: 30px;
+    height: 30px;
+    margin-top: 8px;
+    margin-left: 23px;
+    font-size: 35px;
+}
+
+.statistical__number #span4{
+    color: #EF8A40;
+    width: 30px;
+    height: 30px;
+    margin-top: 8px;
+    margin-left: 23px;
+    font-size: 35px;
+}
+
+.statistical__number #p1 {
+    color: #4350AF;
+    width: 26px;
+    height: 28px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 13px;
+    margin-left: 18px;
+}
+
+.statistical__number #p2 {
+    color: #619D87;
+    width: 26px;
+    height: 28px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 13px;
+    margin-left: 18px;
+}
+
+.statistical__number #p3 {
+    color: #EB5181;
+    width: 26px;
+    height: 28px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 13px;
+    margin-left: 18px;
+}
+
+.statistical__number #p4 {
+    color: #EF8A40;
+    width: 26px;
+    height: 28px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 13px;
+    margin-left: 18px;
+}
+
+
+.utlysningar{
+    width: 245px;
+    height: 72px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.9;
+    margin-top: 15px;
+    margin-left: 23px;
+}
+
+.utlysningar span{
+    color: #A78730;
+    cursor: pointer;
+}
+
+.statistical-1 nav ul{
+    margin-left: 6px;
+    margin-top: 10px;
+}
+.statistical-1 nav ul li a{
+    text-decoration: none;
+    color: #000000;
+}   
+.content-top{
+    display: flex;
+}
+
+.statistical{
+    margin-left: 24.3px;
+    margin-top: 56px;
+    width: 287px;
+    height: 285px;
+    cursor: pointer;
+}
+
+.statistical nav ul{
+    margin-left: 6px;
+    margin-top: 10px;
+}
+.statistical nav ul li a{
+    text-decoration: none;
+    color: #000000;
+} 
+.search{
+    display: flex;
+    flex-direction: row;
+}
+.input{
+    margin-top: 44px;
+    margin-left: 109px;
+    display: flex;
+    position: relative;
+    width: 540px;
+    height: 44px;
+    background: #FFFFFF;
+    border-radius: 22px;
+    border: 1px solid #ccc;
+}
+.input span{
+    position: absolute;
+    left: 24px;
+    top: 9px;
+    color: #A78730;
+    font-size: 30px;
+    cursor: pointer;
+}
+.input input{
+    width: 400px;
+    border-radius: 22px;
+    position: absolute;
+    left: 70px;
+    border: none;
+    height: 30px;
+    top:5px ;
+    outline: none;
+}
+
+.filter{
+    width: 116px;
+    height: 44px;
+    background-color: #A78730;
+    border-radius: 22px;
+    margin-top: 44px;
+    margin-left: 565px;
+    cursor: pointer;
+}
+
+.filter:hover{
+    background-color: #ba9e51;
+}
+.filter p{
+    color: white;
+    margin-left: 24.73px;
+    margin-top: 11px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.row-sort{
+    display: flex;
+    flex-direction: row;
+}
+
+.result{
+    display: flex;
+    flex-direction: row;
+    margin-top: 59px;
+    margin-left: 109px;
+    height: 21px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;  
+    color: #000000;
+}
+.result-number{
+    margin-left: 14px;
+}
+.sort{
+    display: flex;
+    flex-direction: row;
+    margin-top: 59px;
+    margin-left: 647px;
+    height: 21px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px; 
+}
+.sort span{
+    color: #A78730;
+    font-weight: 500;
+    margin-left: 8px;
+}
+
+.show{
+    display: flex;
+    flex-direction: row;
+    margin-top: 59px;
+    margin-left: 74px;
+    height: 21px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px; 
+}
+
+.show span{
+    margin-left: 13px;
+    color: #A78730;
+    font-weight: 500;
+}
+
+.main-content{
+    width: 1070px;
+    display: grid;
+    grid-template-columns: 388px 388px 388px;
+    gap: 32px 28px;
+    padding-left: 82px;
+    padding-top: 18px;
+}
+
+.main-content div{
+    width: 388px;
+    height: 191px;
+    background-color: #FFFFFF;
+    margin:0 28px;
+    box-shadow: 0px 5px 19px rgba(0, 0, 0, 0.08);
+    border-radius: 3px;
+}
+
+.main-content div h2{
+    width: 322px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 24px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.specific{
+    width: 322px;
+    height: 48px;
+    margin-top: 12px;
+    margin-left: 24px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.main-content div a{
+    display: flex;
+    text-decoration: none;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+
+.main-content span{
+    width: 12px;
+    height: 12px;
+    color: #6868ED;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.formas{
+    width: 47px;
+    height: 24px;
+    margin-left: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.8;
+}
