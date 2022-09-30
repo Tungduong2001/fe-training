@@ -8,7 +8,6 @@
 }
 .container{
     width: 1440px;
-    height: 2786px;
     margin: 0 auto;
 }
 
@@ -25,7 +24,6 @@ main{
 .navbar-rignt{
     display: flex;
     margin-left: 586.83px;
-
 }
 
 .header-top{
@@ -416,5 +414,246 @@ footer{
 }
 
 @media only screen and (max-width: 375px) {
+    .container{
+        width: 375px;
+        margin: 0 auto;
+    }
+    .logo{
+        width: 98px;
+        height: 44px;
+        margin-left: 2px;
+        margin-top: -7px;
+        margin-bottom: 5px;
+    }
+    .navbar-rignt{
+        display: none;
+    }
+    main {
+        background-color: #edf8ef;
+        height: 3399.29px;
+    }
+    .title{
+        margin-top: 24px;
+        width: 172px;
+        height: 38px;
+        margin-left: 13px;
+        font-size: 22px;
+        line-height: 38px;
+    }
+    .content1{
+        width: 347px;
+        height: 96px;
+        margin-left: 13px;
+        margin-top: 16px;
+        font-size: 13px;
+        line-height: 24px;
+    }
+    .content2{
+        width: 347px;
+        height: 120px;
+        margin-left: 13px;
+        margin-top: 10px;
+        font-size: 13px;
+        line-height: 24px;
+    }
+    .content3{
+        width: 347px;
+        height: 48px;
+        margin-left: 13px;
+        margin-top: 10px;
+        font-size: 13px;
+        line-height: 24px;
+    }
+    .team{
+        margin-left: 13px;
+        margin-top: 48px;
+        width: 56px;
+        height: 38px;   
+        font-size: 22px;
+        line-height: 38px;
+    }
+
+    .main-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .background{
+        width: 240.72px;
+        height: 369.2px;
+        margin-left: 13px;
+        margin-top: 34px;
+        border-radius: 6px;
+        position: relative;
+    }
+    .background img{
+        position: absolute;
+        margin-top: 39.4px;
+        border-radius: 7px;
+        margin-left: 39.41px;
+        width: 310.59px;
+        height: 298.63px;
+    }
+    .content-right{
+        margin-top: 40px;
+        margin-left: 13px;
+    }
+    .content-right h2{
+        width: 193px;
+        height: 28px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .content-right img{
+        margin-top: 11.13px;
+        width: 13.75px;
+        height: 13.75px;
+    }
+
+    .content-right p{
+        width: 347px;
+        height: 216px;
+        font-size: 13px;
+        line-height: 24px;
+    }
+    #background {
+        background-color: #FFFFFF;
+        width: 241.53px;
+        height: 361.57px;
+        margin-left: 121.47px;
+        margin-top: 43px;
+        border-radius: 6px;
+        position: relative;
+    }
+    #main-content{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #background img{
+        width: 310.08px;
+        height: 283.48px;
+        position: absolute;
+        margin-top: 40.61px;
+        margin-left: -108.8px;
+        border-radius: 7px;
+    }
+    .advisor{
+        flex-direction: column;
+    }
+    
+    .Radgivare{
+        width: 100px;
+        height: 38px;
+        font-size: 22px;
+        line-height: 38px;
+        margin-left: 13px;
+        margin-top: 56px;
+    }
+    .bg{
+        width: 187.78px;
+        height: 245.56px;
+        margin-left: 13px;
+        margin-top: 40px;
+        border-radius: 6px;
+        position: relative;
+    }
+    .bg img{
+        position: absolute;
+        margin-top: 31.78px;
+        margin-left: 34.67px;
+        border-radius: 8px;
+        width: 186.33px;
+        height: 183.44px;
+    }
+    .advisor-content{
+        margin-left: 13px;
+        margin-top: 40px;
+    }
+    .advisor-content h2{
+        width: 183px;
+        height: 24px;
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .advisor-content img{
+        margin-top: 11.12px;
+        width: 13.75px;
+        height: 13.75px;
+        cursor: pointer;
+    }
+    .advisor-content p {
+        width: 347px;
+        height: 66px;
+        font-size: 13px;
+        line-height: 22px;
+        margin-top: 19.09px;
+    }
+    .footer-top{
+        height: 455px;
+        width: 375px;
+        margin-top: -100px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo_bottom{
+        height: 146px;
+        width: 66px;
+        margin-left: 4px;
+        margin-top: 25px;
+    }
+
+    .funding ul {
+        margin-top: -60px;
+        margin-left: -14px;
+    }
+
+    .funding li {
+        margin-top: 20px; 
+        
+    }
+
+    .about ul {
+        margin-top: 42px;
+        margin-left: -14px;
+    }
+
+    .about  li {
+        margin-top: 20px;
+    }
+
+    .border-bottom{
+        display: block;
+        border-bottom: 1px solid #ccc;
+        width: 300px;
+        margin-top: 25px;
+        margin-left: 27px;
+    }
+
+    .border-bottom:hover{
+        color: violet;
+    }
+
+    .footer-bottom{
+        width: 375px;
+        height: 133px;
+        flex-direction: column;
+        margin-top: -50px;
+    }
+
+    .footer-bottom img{
+        margin-left: 260px;
+        margin-top: 27px;
+        margin-left: 21px;
+    }
+    .copyright p{
+        color: #FFFFFF;
+        width: 298px;
+        height: 48px;
+        margin-left: 21px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    } 
     
 }
