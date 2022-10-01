@@ -14,7 +14,8 @@
 
 main{
     width: 100%;
-    background-color: #edf8ef;
+    background-color: #F2F7FF;
+    height: 3339px;
 }
 .logo{
     width: 146.67px;
@@ -28,7 +29,7 @@ main{
 
 .header-top{
     display: flex;
-    width: 80px;
+    width: 100%;
 }
 
 .sign-in{
@@ -74,11 +75,6 @@ main{
     background-color: #fafafa;
 }
 
-main {
-    background-color: #edf8ef;
-    height: 3339px;
-}
-
 .hr{
     border-bottom: 1px solid #ccc;
     margin-top: 0px;
@@ -105,7 +101,17 @@ main {
     flex-direction: row;
 }
 
+
 .statistical__title span{
+    margin-left: 120px;
+    cursor: pointer;
+    margin-top: 29px;
+}
+.statistical__title1{
+    display: flex;
+    flex-direction: row;
+}
+.statistical__title1 span{
     margin-left: 120px;
     cursor: pointer;
     margin-top: 29px;
@@ -121,6 +127,19 @@ main {
 }
 
 .statistical__title h2{
+    width: 115px;
+    height: 28px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+    opacity: 0.8;
+    margin-top: 25px;
+    margin-left: 23px;
+}
+
+.statistical-1 h2{
     width: 115px;
     height: 28px;
     font-style: normal;
@@ -279,6 +298,10 @@ main {
     text-decoration: none;
     color: #000000;
 } 
+.line{
+    display: none;
+}
+
 .search{
     display: flex;
     flex-direction: row;
@@ -321,12 +344,22 @@ main {
     margin-top: 44px;
     margin-left: 565px;
     cursor: pointer;
+    display: flex;
 }
 
 .filter:hover{
     background-color: #ba9e51;
 }
 .filter p{
+    color: white;
+    margin-left: 10px;
+    margin-top: 11px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+.filter span{
     color: white;
     margin-left: 24.73px;
     margin-top: 11px;
@@ -341,6 +374,10 @@ main {
     flex-direction: row;
 }
 
+.sort-show{
+    display: flex;
+    flex-direction: row;
+}
 .result{
     display: flex;
     flex-direction: row;
@@ -605,4 +642,269 @@ footer{
     color: #FFFFFF;
     opacity: 0.5;
     margin-top: 12.64px;
+}
+
+@media only screen and (max-width: 375px){
+    .container{
+        width: 375px;
+    }
+    .header-top{
+        width: 375px;
+        height: 59px;
+        background-color: #FFFFFF;
+    }
+    .logo{
+        margin-left: 2px;
+    }
+    .logo img{
+        width: 99px;
+        height: 44px;
+    }
+    main{
+        height: 3000px;
+    }
+    .navbar-rignt{
+        display: none;
+    }
+    .title{
+        margin-top: 32px;
+        width: 223px;
+        height: 28px;
+        margin-left: 13px;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .content-top{
+        display: flex;
+        flex-direction: column;
+    }
+    .statistical-1{
+        margin-top: 32px;
+        margin-left: 13px;
+        border-top: 3px solid #4350AF;
+        width: 350px;
+        height: 267px;
+        margin-bottom: 170px;
+    }
+    .statistical{
+        margin-left: 15px;
+        margin-top: -150px;
+        width: 287px;
+        height: 285px;
+        cursor: pointer;
+    }
+    .statistical nav ul{
+        display: none;
+    }
+    .statistical p {
+        display: none;
+        border-bottom: 2px solid #ccc;
+    }
+    .statistical__title span{
+        transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+    }
+    #statistical__title1{
+        transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+    }
+
+    .line{
+        border-bottom: 1px solid #ccc;
+        margin-top: 32px;
+        display: block;
+        margin-left: 26px;
+    }
+    .line:hover{
+        cursor: pointer;
+        border-bottom: 1px solid violet;
+    }
+     
+    .input{
+        margin-left: 13px;
+        padding-left: 255px;
+    }
+    .input span{
+        position: absolute;
+        left: 15px;
+        top: 13px;
+        color: #A78730;
+        font-size: 20px;
+    }
+
+    .input input{
+        width: 170px;
+        border-radius: 22px;
+        position: absolute;
+        border: none;
+        height: 30px;
+        top:6.5px ;
+        outline: none;
+        right: 15px;
+        left: 45px;
+    }
+
+    .filter{
+        width: 44px;
+        height: 44px;
+        margin-left: 51px;
+        margin-right: 12px;
+        cursor: pointer;
+    }
+    .filter p{
+        display: none;
+    }
+
+    .filter span{
+        color: white;
+        font-size: 25px;
+        width: 14px;
+        height: 1.65px;
+        padding-right: 25px;
+        margin-left: 15px;
+    }
+    .search{
+        margin-top: -180px;
+    }
+    .row-sort{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .sort p{
+        display: none;
+    }
+    .show p{
+        display: none;
+    }
+    .sort{
+        margin-top: 30px;
+        margin-left: 13px;
+        height: 20px;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 19px; 
+    }
+    .show{
+        margin-top: 30px;
+        margin-left: 74px;
+        height: 20px;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 19px; 
+    }
+
+    .result{
+        margin-top: 32px;
+        margin-left: 15px;
+        font-style: normal;
+    }
+    .main-content{
+        width: 100%;
+        display: block;
+        padding-left: 13px;
+        padding-top: 0;
+    }
+    .main-content div{
+        width: 350px;
+        height: 191px;
+        margin: 24px 0;
+    }
+    .div1{
+        display: none;
+    }
+    .missa{
+        width: 327px;
+        height: 72px;
+        margin-left: 24px;
+        margin-top: 32px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .medlem{
+        margin-left: 107px;
+        margin-bottom: 40px;
+    }
+
+    .loadmore{
+        margin-left: 108px;
+        margin-top: 40px;
+    }
+
+    .footer-top{
+        height: 455px;
+        width: 375px;
+        margin-top: -100px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo_bottom{
+        height: 146px;
+        width: 66px;
+        margin-left: 4px;
+        margin-top: 25px;
+    }
+
+    .funding ul {
+        margin-top: -60px;
+        margin-left: -14px;
+    }
+
+    .funding li {
+        margin-top: 20px; 
+        
+    }
+
+    .about ul {
+        margin-top: 42px;
+        margin-left: -14px;
+    }
+
+    .about  li {
+        margin-top: 20px;
+    }
+
+    .border-bottom{
+        display: block;
+        border-bottom: 1px solid #ccc;
+        width: 300px;
+        margin-top: 25px;
+        margin-left: 27px;
+    }
+
+    .border-bottom:hover{
+        color: violet;
+    }
+
+    .footer-bottom{
+        width: 375px;
+        height: 133px;
+        flex-direction: column;
+        margin-top: -50px;
+    }
+
+    .footer-bottom img{
+        margin-left: 260px;
+        margin-top: 27px;
+        margin-left: 21px;
+    }
+    .copyright p{
+        color: #FFFFFF;
+        width: 298px;
+        height: 48px;
+        margin-left: 21px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    } 
+    footer{
+        margin-top: 0;
+    }
 }

@@ -481,7 +481,7 @@ article{
 
 @media only screen and (max-width: 375px){
     video {
-        width: 100%;
+        width: 375px;
         height: 328px;
         position: absolute;
         object-fit: cover;
