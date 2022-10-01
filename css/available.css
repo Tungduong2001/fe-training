@@ -464,3 +464,145 @@ main {
     color: #000000;
     opacity: 0.8;
 }
+
+.missa{
+    width: 610px;
+    height: 56px;
+    margin-left: 415px;
+    margin-top: 68px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.8;
+}
+.medlem{
+    width: 160px;
+    height: 40px;
+    border: 1px solid #A78730;
+    border-radius: 22px;
+    margin-left: 640px;
+    margin-top: 24px;
+    cursor: pointer;
+    margin-bottom: 68px;
+}
+.medlem:hover{
+    background-color: #cfe4d3;
+}
+.medlem p{
+    width: 82px;
+    height: 21px;
+    margin-left: 39px;
+    margin-top: 9px;
+    color: #A78730;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.loadmore{
+    width: 160px;
+    height: 44px;
+    border: 1px solid #A78730;
+    border-radius: 22px;
+    margin-left: 640px;
+    margin-top: 48px;
+    cursor: pointer;
+}
+
+.loadmore p{
+    width: 77px;
+    height: 21px;
+    margin-left: 42px;
+    margin-top: 12px;
+    color: #A78730;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.loadmore:hover{
+    background-color: #cfe4d3;
+}
+
+footer{
+    margin-top: -200px;
+}
+.footer-top{
+    height: 258.3636474609375px;
+    width: 1440px;
+    background-color: #292A2B;
+    display: flex;
+}
+
+.footer-top nav, ul, li, a{
+    list-style: none;
+    text-decoration: none;
+}
+.footer-top li {
+    position: relative;
+    margin-top: 30px;
+}
+
+.footer-top a {
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+.footer-top a:hover{
+    color: violet;
+}
+.funding ul {
+    margin-top: 76px; 
+    margin-left: 210px;
+}
+.logo_bottom{
+    height: 88px;
+    width: 196px;
+    margin-left: 246px;
+    margin-top: 80px;
+}
+
+.about ul {
+    margin-top: 76px; 
+    margin-left: 170px;
+}
+
+.footer-bottom{
+    width: 1440px;
+    display: flex;
+    height: 60.64px;
+    background-color: #0B0B0B;
+    color: #FFFFFF;
+}
+
+.footer-bottom img{
+    margin-left: 260px;
+    margin-top: 21.64px;
+    margin-right: 17.22px;
+}
+
+.footer-bottom a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.copyright p{
+    margin-left: 383px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-top: 12.64px;
+}
