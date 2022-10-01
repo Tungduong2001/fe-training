@@ -226,7 +226,11 @@ main{
 .category a{
     color: #000000;
     margin-left: 28.8px;
-    text-decoration: none;
+}
+.category-span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
 .description{
     width: 590px;
