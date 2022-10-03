@@ -579,10 +579,11 @@ footer{
     display: flex;
 }
 
-.footer-top nav, ul, li, a{
-    list-style: none;
+.footer-top li, a {
     text-decoration: none;
+    list-style: none;
 }
+
 .footer-top li {
     position: relative;
     margin-top: 30px;
