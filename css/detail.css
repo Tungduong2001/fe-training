@@ -112,6 +112,9 @@ main{
     margin-bottom: 5px;
     margin-left: 8.7px;
 } 
+.menu{
+    display: none;
+}
 .hr{
     border-bottom: 1px solid #ccc;
     margin-top: 7px;
@@ -354,4 +357,166 @@ footer{
   'wght' 400,
   'GRAD' 0,
   'opsz' 40
+}
+
+
+@media only screen and (max-width: 375px){
+    .container{
+        width: 375px;
+    }
+    .logo{
+        width: 98px;
+        height: 44px;
+        margin-left: 2px;
+        margin-top: -3px;
+        margin-bottom: 5px;
+    }
+    .navbar-rignt{
+        display: none;
+    }
+    .menu{
+        display: block;
+        margin-top: 15px;
+        margin-left: 234px;
+        cursor: pointer;
+    }
+    .formas{
+        margin-left: 20px;
+    }
+    .main{
+        width: 100%;
+        height: 2177px;
+        margin-left: 0px;
+    }
+    .grants span{
+        width: 14px;
+        height: 14px;
+        margin-top: 34px;
+        margin-left: 20px;
+        color: #6868ED;
+    }
+    .grants p{
+        margin-top: 34px;
+        margin-left: 12px;
+    }
+    #close{
+        margin-left: 251px;
+        color: #A78730;
+        cursor: pointer;
+    }
+    .main-title{
+        width: 280px;
+        height: 81px;
+        margin-left: 48px;
+        margin-top: 29px;
+    }
+    .main-title h2{
+        font-size: 21px;
+        line-height: 27px;
+    }
+    .main-content{
+        width: 100%;
+        margin-top: 52px;
+        margin-left: 20px;
+    }
+    .function h3{
+        width: 101px;
+        height: 24px;
+        font-size: 13px;
+    }
+    .function p{
+        font-size: 14px;
+        margin-left: 57px;
+    }
+    .line{
+        border: 1px solid #ccc;
+        width: 90%;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+    #pencial{
+        font-size: 14px;
+        margin-top: 6px;
+    }
+    .description{
+        width: 335px;
+        height: 1536px;
+        padding-top: 24px;
+        font-size: 13px;
+    }
+    .loadmore{
+        width: 147px;
+        height: 41px;
+        margin-top: 8px;
+        margin-left: 114px;
+    }
+    footer{
+        margin-top: 120px;
+    }
+    .footer-top{
+        height: 455px;
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo_bottom{
+        height: 146px;
+        width: 66px;
+        margin-left: 4px;
+        margin-top: 25px;
+    }
+
+    .funding ul {
+        margin-top: -60px;
+        margin-left: -14px;
+    }
+
+    .funding li {
+        margin-top: 20px; 
+        
+    }
+
+    .about ul {
+        margin-top: 42px;
+        margin-left: -14px;
+    }
+
+    .about  li {
+        margin-top: 20px;
+    }
+
+    .border-bottom{
+        display: block;
+        border-bottom: 1px solid #ccc;
+        width: 300px;
+        margin-top: 25px;
+        margin-left: 27px;
+    }
+
+    .border-bottom:hover{
+        color: violet;
+    }
+
+    .footer-bottom{
+        width: 375px;
+        height: 133px;
+        flex-direction: column;
+        margin-top: -50px;
+    }
+
+    .footer-bottom img{
+        margin-left: 260px;
+        margin-top: 27px;
+        margin-left: 21px;
+    }
+    .copyright p{
+        color: #FFFFFF;
+        width: 298px;
+        height: 48px;
+        margin-left: 21px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    } 
 }
