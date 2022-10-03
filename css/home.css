@@ -121,6 +121,11 @@ header{
     margin-bottom: 5px;
     margin-left: 8.7px;
 } 
+
+.menu{
+    display: none;
+    color: #FFFFFF;
+}
 .title{
     width: 527px;
     height: 91px;
@@ -745,5 +750,12 @@ article{
     }
     .statistical__number{
         margin-left: 22px;
+    }
+    .menu{
+        display: block;
+        margin-left: 234px;
+        cursor: pointer;
+        position: relative;
+        margin-top: 20px;
     }
 }

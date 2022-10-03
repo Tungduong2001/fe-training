@@ -70,6 +70,9 @@ main{
     color: #A78730;
     margin-left: 40px;
 }
+.menu{
+    display: none;
+}
 .sign-up:hover{
     text-decoration: underline 1px solid #A78730;
     background-color: #fafafa;
@@ -906,5 +909,13 @@ footer{
     } 
     footer{
         margin-top: 0;
+    }
+
+    .menu{
+        display: block;
+        margin-left: 190px;
+        cursor: pointer;
+        position: relative;
+        margin-top: 17px;
     }
 }

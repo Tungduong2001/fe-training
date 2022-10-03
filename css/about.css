@@ -111,6 +111,10 @@ main{
     margin-left: 8.7px;
 } 
 
+.menu{
+    display: none;
+}
+
 main {
     background-color: #edf8ef;
     height: 2467px;
@@ -655,5 +659,11 @@ footer{
         font-size: 14px;
         line-height: 24px;
     } 
-    
+    .menu{
+        display: block;
+        margin-left: 234px;
+        cursor: pointer;
+        position: relative;
+        margin-top: 13px;
+    }
 }
