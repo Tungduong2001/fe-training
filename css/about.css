@@ -83,6 +83,7 @@ main{
     background-color: #FFFFFF;
     color: #A78730;
     margin-left: 32px;
+    font-family: 'Centra No1';
     margin-top: 19px;
 } 
 .profile a{
@@ -106,7 +107,7 @@ main{
 .profile p{
     width: 47px;
     height: 28px;
-    margin-top: 11px;
+    margin-top: 9px;
     margin-bottom: 5px;
     margin-left: 8.7px;
 } 
