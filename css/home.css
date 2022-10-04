@@ -8,17 +8,16 @@
 }
 
 .container{
-    width: 1440px;
-    margin: auto;
+    width: 100%;
 }
 video {
-    width: 1440px;
+    width: 100%;
     height: 660px;
     position: absolute;
     object-fit: cover;
 }
 header{
-    width: 1440px;
+    width: 100%;
     height: 660px;
 }
 
@@ -168,7 +167,7 @@ header{
 
 article{
     display: flex;
-    width: 1440px;
+    width: 100%;
     height: 774px;
 }
 
@@ -405,7 +404,7 @@ article{
 
 .footer-top{
     height: 258.3636474609375px;
-    width: 1440px;
+    width: 100%;
     background-color: #292A2B;
     margin-top: 16px;
     display: flex;
@@ -449,7 +448,7 @@ article{
 }
 
 .footer-bottom{
-    width: 1440px;
+    width: 100%;
     display: flex;
     height: 60.64px;
     background-color: #0B0B0B;
@@ -538,10 +537,15 @@ article{
         line-height: 30px;
     }
 
+    main{
+        width: 100%;
+        margin: auto;
+    }
     article{
         display: flex;
         flex-direction: column;
         width: 375px;
+
     }
     .main-left{
         width: 350px;
