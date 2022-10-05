@@ -37,7 +37,7 @@ main{
     height: 28px;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 28px;
     color: #000000;
     opacity: 0.7;
@@ -65,7 +65,7 @@ main{
     margin-top: 5px;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 28px;
     color: #A78730;
     margin-left: 40px;
@@ -94,7 +94,7 @@ main{
     margin-left: 112px;
     font-style: normal;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 1.875rem;
     line-height: 39px;
     color: #000000;
     opacity: 0.8;
@@ -134,7 +134,7 @@ main{
     height: 28px;
     font-style: normal;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 1.375rem;
     line-height: 28px;
     color: #000000;
     opacity: 0.8;
@@ -147,7 +147,7 @@ main{
     height: 28px;
     font-style: normal;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 1.375rem;
     line-height: 28px;
     color: #000000;
     opacity: 0.8;
@@ -166,7 +166,7 @@ main{
     height: 30px;
     margin-top: 8px;
     margin-left: 23px;
-    font-size: 35px;
+    font-size: 2.1875rem;
 }
 
 
@@ -184,7 +184,7 @@ main{
     height: 30px;
     margin-top: 8px;
     margin-left: 23px;
-    font-size: 35px;
+    font-size: 2.1875rem;
 
 }
 
@@ -194,7 +194,7 @@ main{
     height: 30px;
     margin-top: 8px;
     margin-left: 23px;
-    font-size: 35px;
+    font-size: 2.1875rem;
 }
 
 .statistical__number #span4{
@@ -203,7 +203,7 @@ main{
     height: 30px;
     margin-top: 8px;
     margin-left: 23px;
-    font-size: 35px;
+    font-size: 2.1875rem;
 }
 
 .statistical__number #p1 {
@@ -212,7 +212,7 @@ main{
     height: 28px;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 28px;
     margin-top: 13px;
     margin-left: 18px;
@@ -224,7 +224,7 @@ main{
     height: 28px;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 28px;
     margin-top: 13px;
     margin-left: 18px;
@@ -236,7 +236,7 @@ main{
     height: 28px;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 28px;
     margin-top: 13px;
     margin-left: 18px;
@@ -248,7 +248,7 @@ main{
     height: 28px;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 28px;
     margin-top: 13px;
     margin-left: 18px;
@@ -260,7 +260,7 @@ main{
     height: 72px;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 24px;
     color: #000000;
     opacity: 0.9;
@@ -325,7 +325,7 @@ main{
     left: 24px;
     top: 9px;
     color: #A78730;
-    font-size: 30px;
+    font-size: 1.875rem;
     cursor: pointer;
 }
 .input input{
@@ -359,7 +359,7 @@ main{
     margin-top: 11px;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 21px;
 }
 .filter span{
@@ -368,7 +368,7 @@ main{
     margin-top: 11px;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 21px;
 }
 
@@ -389,7 +389,7 @@ main{
     height: 21px;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 21px;  
     color: #000000;
 }
@@ -404,7 +404,7 @@ main{
     height: 21px;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 21px; 
 }
 .sort span{
@@ -421,7 +421,7 @@ main{
     height: 21px;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 21px; 
 }
 
@@ -455,7 +455,7 @@ main{
     margin-top: 20px;
     margin-left: 24px;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 30px;
     color: #000000;
     opacity: 0.8;
@@ -467,7 +467,7 @@ main{
     margin-top: 12px;
     margin-left: 24px;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 24px;
     color: #000000;
     opacity: 0.7;
@@ -499,7 +499,7 @@ main{
     margin-left: 15px;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 24px;
     color: #000000;
     opacity: 0.8;
@@ -512,7 +512,7 @@ main{
     margin-top: 68px;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 28px;
     text-align: center;
     color: #000000;
@@ -539,7 +539,7 @@ main{
     color: #A78730;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 21px;
 }
 
@@ -561,7 +561,7 @@ main{
     color: #A78730;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 21px;
 }
 
@@ -571,12 +571,15 @@ main{
 
 footer{
     margin-top: -200px;
+    width: 100%;
+    background-color: #292A2B;
 }
 .footer-top{
     height: 258.3636474609375px;
     width: 1440px;
     background-color: #292A2B;
     display: flex;
+    margin: 0 auto;
 }
 
 .footer-top li, a {
@@ -593,7 +596,7 @@ footer{
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 19px;
     color: #FFFFFF;
     opacity: 0.7;
@@ -618,13 +621,17 @@ footer{
 }
 
 .footer-bottom{
-    width: 1440px;
+    width: 100%;
     display: flex;
     height: 60.64px;
     background-color: #0B0B0B;
     color: #FFFFFF;
 }
-
+.ft{
+    display: flex;
+    width: 1440px;
+    margin: 0 auto;
+}
 .footer-bottom img{
     margin-left: 260px;
     margin-top: 21.64px;
@@ -641,7 +648,7 @@ footer{
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 28px;
     color: #FFFFFF;
     opacity: 0.5;
@@ -676,7 +683,7 @@ footer{
         height: 28px;
         margin-left: 13px;
         font-weight: 500;
-        font-size: 22px;
+        font-size: 1.375rem;
         line-height: 28px;
     }
     .content-top{
@@ -740,7 +747,7 @@ footer{
         left: 15px;
         top: 13px;
         color: #A78730;
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 
     .input input{
@@ -768,7 +775,7 @@ footer{
 
     .filter span{
         color: white;
-        font-size: 25px;
+        font-size: 1.5625rem;
         width: 14px;
         height: 1.65px;
         padding-right: 25px;
@@ -792,7 +799,7 @@ footer{
         margin-left: 13px;
         height: 20px;
         font-weight: 500;
-        font-size: 15px;
+        font-size: 0.9375rem;
         line-height: 19px; 
     }
     .show{
@@ -800,7 +807,7 @@ footer{
         margin-left: 74px;
         height: 20px;
         font-weight: 500;
-        font-size: 15px;
+        font-size: 0.9375rem;
         line-height: 19px; 
     }
 
@@ -810,7 +817,7 @@ footer{
         font-style: normal;
     }
     .main-content{
-        width: 100%;
+        width: 362px;
         display: block;
         padding-left: 13px;
         padding-top: 0;
@@ -828,7 +835,7 @@ footer{
         height: 72px;
         margin-left: 24px;
         margin-top: 32px;
-        font-size: 14px;
+        font-size: 0.875rem;
         line-height: 24px;
     }
     .medlem{
@@ -905,7 +912,7 @@ footer{
         height: 48px;
         margin-left: 21px;
         font-weight: 400;
-        font-size: 14px;
+        font-size: 0.875rem;
         line-height: 24px;
     } 
     footer{
@@ -918,5 +925,9 @@ footer{
         cursor: pointer;
         position: relative;
         margin-top: 17px;
+    }
+    .ft{
+        width: 375px;
+        flex-direction: column;
     }
 }

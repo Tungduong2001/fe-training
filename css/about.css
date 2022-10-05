@@ -7,7 +7,7 @@
     src: url("../centrano1-and-no2-font/CentraNo1-Book.woff");
 }
 .container{
-    width: 100%px;
+    width: 1440px;
     margin: 0 auto;
 }
 
@@ -41,7 +41,7 @@ main{
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 28px;
     color: #000000;
 }
@@ -63,7 +63,7 @@ main{
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 28px;
     color: #000000;
 }
@@ -149,7 +149,7 @@ main {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 28px;
     color: #000000;
     opacity: 0.8;
@@ -162,7 +162,7 @@ main {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 28px;
     color: #000000;
     opacity: 0.8;
@@ -175,7 +175,7 @@ main {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 28px;
     color: #000000;
     opacity: 0.8;
@@ -188,7 +188,7 @@ main {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 500;
-    font-size: 34px;
+    font-size: 2.125rem;
     line-height: 48px;
     color: #A78730;
 }
@@ -225,7 +225,7 @@ main {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 38px;
     color: #000000;
     opacity: 0.8;
@@ -242,7 +242,7 @@ main {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 26px;
     color: #000000;
     opacity: 0.8;
@@ -271,7 +271,7 @@ main {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 500;
-    font-size: 34px;
+    font-size: 2.125rem;
     line-height: 48px;
     color: #A78730;
     margin-left: 164px;
@@ -313,7 +313,7 @@ main {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 32px;
     color: #000000;
     opacity: 0.8;
@@ -332,7 +332,7 @@ main {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 26px;
     color: #000000;
     opacity: 0.8;
@@ -340,6 +340,8 @@ main {
 }
 footer{
     margin-top: -15px;
+    width: 100%;    
+    background-color: #292A2B;
 }
 .footer-top{
     height: 258.3636474609375px;
@@ -347,6 +349,7 @@ footer{
     background-color: #292A2B;
     margin-top: 16px;
     display: flex;
+    margin: 0 auto;
 }
 
 .footer-top nav, ul, li, a{
@@ -362,7 +365,7 @@ footer{
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 19px;
     color: #FFFFFF;
     opacity: 0.7;
@@ -387,13 +390,17 @@ footer{
 }
 
 .footer-bottom{
-    width: 1440px;
+    width: 100%;
     display: flex;
     height: 60.64px;
     background-color: #0B0B0B;
     color: #FFFFFF;
 }
-
+.ft{
+    display: flex;
+    width: 1440px;
+    margin: 0 auto;
+}
 .footer-bottom img{
     margin-left: 260px;
     margin-top: 21.64px;
@@ -410,7 +417,7 @@ footer{
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 28px;
     color: #FFFFFF;
     opacity: 0.5;
@@ -441,7 +448,7 @@ footer{
         width: 172px;
         height: 38px;
         margin-left: 13px;
-        font-size: 22px;
+        font-size: 1.375rem;
         line-height: 38px;
     }
     .content1{
@@ -449,7 +456,7 @@ footer{
         height: 96px;
         margin-left: 13px;
         margin-top: 16px;
-        font-size: 13px;
+        font-size: 0.8125rem;
         line-height: 24px;
     }
     .content2{
@@ -457,7 +464,7 @@ footer{
         height: 120px;
         margin-left: 13px;
         margin-top: 10px;
-        font-size: 13px;
+        font-size: 0.8125rem;
         line-height: 24px;
     }
     .content3{
@@ -465,7 +472,7 @@ footer{
         height: 48px;
         margin-left: 13px;
         margin-top: 10px;
-        font-size: 13px;
+        font-size: 0.8125rem;
         line-height: 24px;
     }
     .team{
@@ -473,7 +480,7 @@ footer{
         margin-top: 48px;
         width: 56px;
         height: 38px;   
-        font-size: 22px;
+        font-size: 1.375rem;
         line-height: 38px;
     }
 
@@ -504,7 +511,7 @@ footer{
     .content-right h2{
         width: 193px;
         height: 28px;
-        font-size: 20px;
+        font-size: 1.25rem;
         line-height: 28px;
     }
 
@@ -517,7 +524,7 @@ footer{
     .content-right p{
         width: 347px;
         height: 216px;
-        font-size: 13px;
+        font-size: 0.8125rem;
         line-height: 24px;
     }
     #background {
@@ -548,7 +555,7 @@ footer{
     .Radgivare{
         width: 100px;
         height: 38px;
-        font-size: 22px;
+        font-size: 1.375rem;
         line-height: 38px;
         margin-left: 13px;
         margin-top: 56px;
@@ -576,7 +583,7 @@ footer{
     .advisor-content h2{
         width: 183px;
         height: 24px;
-        font-size: 20px;
+        font-size: 1.25rem;
         line-height: 34px;
     }
     .advisor-content img{
@@ -588,7 +595,7 @@ footer{
     .advisor-content p {
         width: 347px;
         height: 66px;
-        font-size: 13px;
+        font-size: 0.8125rem;
         line-height: 22px;
         margin-top: 19.09px;
     }
@@ -656,7 +663,7 @@ footer{
         height: 48px;
         margin-left: 21px;
         font-weight: 400;
-        font-size: 14px;
+        font-size: 0.875rem;
         line-height: 24px;
     } 
     .menu{
@@ -665,5 +672,9 @@ footer{
         cursor: pointer;
         position: relative;
         margin-top: 13px;
+    }
+    .ft{
+        width: 375px;
+        flex-direction: column;
     }
 }

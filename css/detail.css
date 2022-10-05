@@ -10,12 +10,16 @@
     background-color: #E5E5E5;
     margin: 0 auto;
 }
+#contain{
+    padding-bottom: 100px;
+}
 body{
     font-family: 'Centra No1';
     font-style: normal;
 }
 main{
     width: 100%;
+    background-color: #E5E5E5;
 }
 .logo{
     width: 146.67px;
@@ -43,7 +47,7 @@ main{
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 28px;
     color: #000000;
 }
@@ -65,7 +69,7 @@ main{
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 28px;
     color: #000000;
 }
@@ -129,7 +133,7 @@ main{
     margin-left: 15px;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 24px;
     color: #000000;
     opacity: 0.8;
@@ -162,7 +166,7 @@ main{
     width: 48px;
     height: 24px;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 24px;
     color: #000000;
     opacity: 0.8;
@@ -181,7 +185,7 @@ main{
 }
 
 .main-title h2{
-    font-size: 30px;
+    font-size: 1.875rem;
     line-height: 39px;
     text-align: center;
     color: #000000;
@@ -205,13 +209,13 @@ main{
     width: 131px;
     height: 24px;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 24px;
 }
 .function p{
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 24px;
     color: #A78730;
     margin-left: 209px;
@@ -232,14 +236,14 @@ main{
 }
 .category-span{
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 24px;
 }
 .description{
     width: 590px;
     height: 1176px;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 24px;
     color: #000000;
     opacity: 0.8;
@@ -263,7 +267,7 @@ main{
     color: #FFFFFF;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 21px;
     padding-top: 10px;
 }
@@ -273,13 +277,15 @@ main{
 }
 
 footer{
-    margin-top: 127px;
+    width: 100%;
+    background-color: #292A2B;
 }
 .footer-top{
     height: 258.3636474609375px;
     width: 1440px;
     background-color: #292A2B;
     display: flex;
+    margin: 0 auto;
 }
 
 .footer-top nav, ul, li, a{
@@ -295,7 +301,7 @@ footer{
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.0625rem;
     line-height: 19px;
     color: #FFFFFF;
     opacity: 0.7;
@@ -319,14 +325,19 @@ footer{
     margin-left: 170px;
 }
 
+
 .footer-bottom{
-    width: 1440px;
+    width: 100%;
     display: flex;
     height: 60.64px;
     background-color: #0B0B0B;
     color: #FFFFFF;
 }
-
+.ft{
+    display: flex;
+    width: 1440px;
+    margin: 0 auto;
+}
 .footer-bottom img{
     margin-left: 260px;
     margin-top: 21.64px;
@@ -343,7 +354,7 @@ footer{
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 28px;
     color: #FFFFFF;
     opacity: 0.5;
@@ -411,21 +422,21 @@ footer{
         margin-top: 29px;
     }
     .main-title h2{
-        font-size: 21px;
+        font-size: 1.3125rem;
         line-height: 27px;
     }
     .main-content{
-        width: 100%;
+        width: 350px;
         margin-top: 52px;
         margin-left: 20px;
     }
     .function h3{
         width: 101px;
         height: 24px;
-        font-size: 13px;
+        font-size: 0.8125rem;;
     }
     .function p{
-        font-size: 14px;
+        font-size: 0.875rem;
         margin-left: 57px;
     }
     .line{
@@ -435,14 +446,14 @@ footer{
         margin-bottom: 24px;
     }
     #pencial{
-        font-size: 14px;
+        font-size: 0.875rem;
         margin-top: 6px;
     }
     .description{
         width: 335px;
         height: 1536px;
         padding-top: 24px;
-        font-size: 13px;
+        font-size: 0.8125rem;;
     }
     .loadmore{
         width: 147px;
@@ -451,7 +462,7 @@ footer{
         margin-left: 114px;
     }
     footer{
-        margin-top: 120px;
+        margin-top: 0px;
     }
     .footer-top{
         height: 455px;
@@ -516,7 +527,11 @@ footer{
         height: 48px;
         margin-left: 21px;
         font-weight: 400;
-        font-size: 14px;
+        font-size: 0.875rem;
         line-height: 24px;
     } 
+    .ft{
+        width: 375px;
+        flex-direction: column;
+    }
 }
