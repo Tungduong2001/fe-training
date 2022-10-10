@@ -7,23 +7,27 @@
     src: url("../centrano1-and-no2-font/CentraNo1-Book.woff");
 }
 #wraper{
-    width: auto;
+    margin: 0 auto;
+}
+header{
+    height: 660px;
+    background-color: #94d8da;
+}
+.header{
+    width: 1440px;
+    margin: 0 auto;
 }
 video {
-    width: 100%;
+    width: 1440px;
     height: 660px;
     position: absolute;
     object-fit: cover;
+    margin: 0 auto ;    
 }
 .container{
     width: 1440px;
     margin: 0 auto;
 }
-header{
-    width: 100%;
-    height: 660px;
-}
-
 .header-top{
     position: relative;
     display: flex;
@@ -151,7 +155,7 @@ header{
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 1.1rem;
+    font-size: 1.375rem;
     line-height: 30px;
     color: #FFFFFF;
 }
@@ -161,7 +165,7 @@ header{
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 700;
-    font-size: 1.1rem;
+    font-size: 1.375rem;
     line-height: 30px;
     color: #FFFFFF;
     margin-left: 9px;
@@ -169,7 +173,8 @@ header{
 
 article{
     display: flex;
-    width: 100%;
+    width: 1440px;
+    margin: 0 auto;
     height: 774px;
 }
 
@@ -186,8 +191,8 @@ article{
     height: 32px;
     font-family: 'Centra No1';
     font-style: normal;
-    font-weight: 500;
-    font-size: 1.1rem;
+    font-weight: 600;
+    font-size: 1.375rem;
     line-height: 32px;
     margin-left: 30px;
     padding-top: 40px;
@@ -278,7 +283,62 @@ article{
     margin-top: 8px;
 
 }
+@property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+}
+.statistical__number p{
+    animation: counter 7s alternate ease-in-out;
+    counter-reset: num var(--num);
+    animation-fill-mode: forwards;
+}
 
+.statistical__number p::after{
+    content: counter(num);
+}
+
+.user{
+    animation: counteruser 7s alternate ease-in-out;
+    counter-reset: num var(--num);
+    animation-fill-mode: forwards;
+}
+.user::after{
+    content: counter(num);
+}
+@keyframes counter {
+    from {
+      --num: 0;
+    }
+    to {
+      --num: 785;
+    }
+}
+
+@keyframes counteruser {
+    from {
+      --num: 0;
+    }
+    to {
+      --num: 58496;
+    }
+}
+.milion{
+    animation: milion 7s alternate ease-in-out;
+    counter-reset: num var(--num);
+    animation-fill-mode: forwards;
+}
+.milion::after{
+    content: counter(num);
+}
+@keyframes milion {
+    from {
+      --num: 0;
+    }
+    to {
+      --num: 161;
+    }
+}
 .statistical__number #p1 {
     color: #4350AF;
     width: 26px;
@@ -288,9 +348,11 @@ article{
     font-weight: 400;
     font-size: 1rem;
     line-height: 28px;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: 7px;
+ 
 }
+
 
 .statistical__number #p2 {
     color: #619D87;
@@ -301,7 +363,7 @@ article{
     font-weight: 400;
     font-size: 1rem;
     line-height: 28px;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: 7px;
 }
 
@@ -314,7 +376,7 @@ article{
     font-weight: 400;
     font-size: 1rem;
     line-height: 28px;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: 7px;
 }
 
@@ -327,7 +389,7 @@ article{
     font-weight: 400;
     font-size: 1rem;
     line-height: 28px;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: 7px;
 }
 
@@ -346,8 +408,8 @@ article{
     height: 32px;
     font-family: 'Centra No1';
     font-style: normal;
-    font-weight: 500;
-    font-size: 1.1rem;
+    font-weight: 600;
+    font-size: 1.375rem;
     line-height: 32px;
     margin-left: 30px;
     padding-top: 40px;
@@ -404,17 +466,17 @@ article{
     color: #70A693;
 }
 
-footer{
-    width: 100%;
-    background-color: #292A2B;
+
+.footer{
+   background-color: #292A2B;
 }
 .footer-top{
-    height: 258.3636474609375px;
     width: 1440px;
+    margin: 0 auto;
+    height: 258.3636474609375px;
     background-color: #292A2B;
     margin-top: 16px;
     display: flex;
-    margin: 0 auto;
 }
 
 .footer-top nav, ul, li, a{
@@ -432,11 +494,11 @@ footer{
     font-weight: 400;
     font-size: 0.9375rem;
     line-height: 19px;
-    color: #FFFFFF;
+    color: #ccc;
     opacity: 0.7;
 }
 .footer-top a:hover{
-    color: violet;
+    color: white;
 }
 .funding ul {
     margin-top: 76px; 
@@ -448,26 +510,30 @@ footer{
     margin-left: 246px;
     margin-top: 80px;
 }
-.ft{
-    display: flex;
-    width: 1440px;
-    margin: 0 auto;
+.hi{
+    opacity: 0.6;
 }
+
 .about ul {
     margin-top: 76px; 
     margin-left: 170px;
+    color: #ccc;
 }
 
 .footer-bottom{
-    width: 100%;
-    height: 60.64px;
     background-color: #0B0B0B;
-    color: #FFFFFF;
 }
-
+.ft{
+    display: flex;
+    color: #FFFFFF;
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #0B0B0B;
+    align-items: center;
+    height: 60.63px;
+}
 .footer-bottom img{
     margin-left: 260px;
-    margin-top: 21.64px;
     margin-right: 17.22px;
 }
 
@@ -485,16 +551,22 @@ footer{
     line-height: 28px;
     color: #FFFFFF;
     opacity: 0.5;
-    margin-top: 12.64px;
 }
 
 .border-bottom{
     display: none;
 }
+.language a{
+    font-family: 'Centra No1';
+    opacity: 0.6;
+}
 
 /* Responsive mobile */
 
 @media only screen and (max-width: 375px){
+    .header{
+        width: 375px;
+    }
     .container{
         width: 375px;
     }
@@ -731,6 +803,7 @@ footer{
     .ft{
         width: 375px;
         flex-direction: column;
+        align-items:flex-start;
     }
     .footer-bottom{
         width: 375px;
@@ -751,17 +824,18 @@ footer{
         font-weight: 400;
         font-size: 0.875rem;
         line-height: 24px;
+        margin-top: 15px;
     } 
-    .statistical__number #p4 {
+    .statistical__number #p1{
         margin-top: -7px;
     }
-    .statistical__number #p3 {
+    .statistical__number #p2{
         margin-top: -7px;
     }
-    .statistical__number #p2 {
+    .statistical__number #p3{
         margin-top: -7px;
     }
-    .statistical__number #p1 {
+    .statistical__number #p4{
         margin-top: -7px;
     }
     .statistical__number{

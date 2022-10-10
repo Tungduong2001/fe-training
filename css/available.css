@@ -573,6 +573,7 @@ footer{
     margin-top: -200px;
     width: 100%;
     background-color: #292A2B;
+    font-family: 'Centra No1';
 }
 .footer-top{
     height: 258.3636474609375px;
@@ -900,7 +901,6 @@ footer{
         flex-direction: column;
         margin-top: -50px;
     }
-
     .footer-bottom img{
         margin-left: 260px;
         margin-top: 27px;
