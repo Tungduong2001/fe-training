@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Funding Detail</title>
     <link rel="shortcut icon" href="../image/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="../css/detail.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
@@ -21,32 +22,76 @@
                         <a href="./index.html"><img src="../image/ymner_white_RGB 4.png" alt="logo"></a>
                     </div>
                     <div class="navbar-rignt">
-                        <div class="insight">
-                            <p>Insights</p>
-                            <a href="#">
-                                <span class="material-symbols-outlined">
-                                    arrow_drop_down
-                                </span>
-                            </a>
+                        <a href="#" class="sign-in" onclick="document.getElementById('id01').style.display='block'">
+                            <p>Sign in</p>
+                        </a>
+                        <div id="id01" class="w3-modal">
+                            <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
+
+                                <div class="w3-center"><br>
+                                    <span onclick="document.getElementById('id01').style.display='none'"
+                                        class="w3-button w3-xlarge w3-hover-red w3-display-topright"
+                                        title="Close Modal">&times;</span>
+                                </div>
+
+                                <form class="w3-container" action="/action_page.php">
+                                    <div class="w3-section">
+                                        <label><b>Username</b></label>
+                                        <input class="w3-input w3-border w3-margin-bottom" type="text"
+                                            placeholder="Enter Username" name="usrname" required>
+                                        <label><b>Password</b></label>
+                                        <input class="w3-input w3-border" type="password" placeholder="Enter Password"
+                                            name="psw" required>
+                                        <button class="w3-button w3-block w3-green w3-section w3-padding"
+                                            type="submit">Login</button>
+                                        <input class="w3-check w3-margin-top" type="checkbox" checked="checked">
+                                        Remember me
+                                    </div>
+                                </form>
+
+                                <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
+                                    <button onclick="document.getElementById('id01').style.display='none'" type="button"
+                                        class="w3-button w3-red">Cancel</button>
+                                    <span class="w3-right w3-padding w3-hide-small">Forgot <a
+                                            href="#">password?</a></span>
+                                </div>
+                            </div>
                         </div>
-                        <div class="administration">
-                            <p>Administration</p>
-                            <a href="#">
-                                <span class="material-symbols-outlined">
-                                    arrow_drop_down
-                                </span>
-                            </a>
-                        </div>
-                        <div class="profile">
-                            <span id="person" class="material-symbols-outlined">
-                                person
-                            </span>
-                            <p>Profile</p>
-                            <a href="">
-                                <span class="material-symbols-outlined">
-                                    arrow_drop_down
-                                </span>
-                            </a>
+                        <a href="#" class="sign-up" onclick="document.getElementById('id02').style.display='block'">
+                            <p>Sign up</p>
+                        </a>
+                        <div id="id02" class="w3-modal">
+                            <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
+                                <div class="w3-center"><br>
+                                    <span onclick="document.getElementById('id02').style.display='none'"
+                                        class="w3-button w3-xlarge w3-hover-red w3-display-topright"
+                                        title="Close Modal">&times;</span>
+                                </div>
+                                <form class="w3-container" action="/action_page.php">
+                                    <div class="w3-section">
+                                        <label><b>Username</b></label>
+                                        <input class="w3-input w3-border w3-margin-bottom" type="text"
+                                            placeholder="Enter Username" name="usrname" required>
+                                        <label><b>Password</b></label>
+                                        <input class="w3-input w3-border w3-margin-bottom" type="password"
+                                            placeholder="Enter Password" name="psw" required>
+                                        <label><b>Re Password</b></label>
+                                        <input class="w3-input w3-border" type="password" placeholder="Enter Password"
+                                            name="psw" required>
+
+                                        <button class="w3-button w3-block w3-green w3-section w3-padding"
+                                            type="submit">Login</button>
+                                        <input class="w3-check w3-margin-top" type="checkbox" checked="checked">
+                                        Remember me
+                                    </div>
+                                </form>
+                                <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
+                                    <button onclick="document.getElementById('id02').style.display='none'" type="button"
+                                        class="w3-button w3-red">Cancel</button>
+                                    <span class="w3-right w3-padding w3-hide-small">Forgot <a
+                                            href="#">password?</a></span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="menu">
@@ -168,30 +213,36 @@
                         </div>
                     </div>
                     <div class="loadmore">
-                        <p>To Site</p>
+                        <a href="https://www.youtube.com/">
+                            <p>To Site</p>
+                        </a>
                     </div>
                 </div>
             </div>
         </main>
         <footer>
-            <div class="footer-top">
-                <div class="logo_bottom">
-                    <a href="#"><img src="../image/ymner_white_RGB 3.png" alt=""></a>
+            <div class="footer">
+                <div class="footer-top">
+                    <div class="logo_bottom">
+                        <a href="#"><img src="../image/ymner_white_RGB 3.png" alt=""></a>
+                    </div>
+                    <nav class="funding">
+                        <ul>
+                            <li><a href="./available.html">Tillgänglig finansiering</a></li>
+                            <li><a href="./detail.html">Finansieringsinsikter</a></li>
+                        </ul>
+                    </nav>
+                    <div class="border-bottom"></div>
+                    <nav class="about">
+                        <ul>
+                            <li><a href="./about.html">Om Ymner</a></li>
+                            <li><a href="#">Om Cookies & GDPR</a></li>
+                            <li style="display: flex;">
+                                <p class="hi">Kontakt: </p><a href="#"> hello@ymner.com</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
-                <nav class="funding">
-                    <ul>
-                        <li><a href="./available.html">Available funding</a></li>
-                        <li><a href="./detail.html">Funding detail</a></li>
-                    </ul>
-                </nav>
-                <div class="border-bottom"></div>
-                <nav class="about">
-                    <ul>
-                        <li><a href="./about.html">About Ymner</a></li>
-                        <li><a href="#">About Cookies & GDPR</a></li>
-                        <li><a href="#">Contact: hello@ymner.com</a></li>
-                    </ul>
-                </nav>
             </div>
             <div class="footer-bottom">
                 <div class="ft">

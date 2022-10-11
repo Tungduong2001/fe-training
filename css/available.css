@@ -467,7 +467,6 @@ main{
 }
 
 .main-content{
-    width: 1070px;
     display: grid;
     grid-template-columns: 388px 388px 388px;
     gap: 32px 28px;
@@ -663,96 +662,98 @@ footer{
 .footer{
     background-color: #292A2B;
  }
-.footer-top{
-    width: 1440px;
-    margin: 0 auto;
-    height: 258.3636474609375px;
-    background-color: #292A2B;
-    margin-top: 16px;
-    display: flex;
-}
-
-.footer-top li, a {
-    text-decoration: none;
-    list-style: none;
-}
-
-.footer-top li {
-    position: relative;
-    margin-top: 30px;
-}
-.hi{
-    opacity: 0.6;
-    font-size: 0.875rem;
-}
-.footer-top a {
-    font-family: 'Centra No1';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 0.9375rem;
-    line-height: 19px;
-    color: #ccc;
-    opacity: 0.7;
-}
-.footer-top a:hover{
-    color: #FFFFFF;
-}
-.funding ul {
-    margin-top: 76px; 
-    margin-left: 210px;
-}
-.logo_bottom{
-    height: 88px;
-    width: 196px;
-    margin-left: 246px;
-    margin-top: 80px;
-}
-.footer-bottom{
-    background-color: #0B0B0B;
-}
-.about ul {
-    margin-top: 76px; 
-    margin-left: 170px;
-    color: #ccc;
-}
-
-.footer-bottom{
-    background-color: #0B0B0B;
-}
-.ft{
-    display: flex;
-    color: #FFFFFF;
-    width: 1440px;
-    margin: 0 auto;
-    background-color: #0B0B0B;
-    align-items: center;
-    height: 60.63px;
-}
-.footer-bottom img{
-    margin-left: 260px;
-    margin-right: 17.22px;
-}
-
-.footer-bottom a{
-    color: #FFFFFF;
-    text-decoration: none;
-}
-
-.copyright p{
-    margin-left: 383px;
-    font-family: 'Centra No1';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 0.875rem;
-    line-height: 28px;
-    color: #FFFFFF;
-    opacity: 0.5;
-}
-
-.language a{
-    font-family: 'Centra No1';
-    opacity: 0.6;
-}
+ .footer-top{
+     width: 1440px;
+     margin: 0 auto;
+     height: 258.3636474609375px;
+     background-color: #292A2B;
+     margin-top: 16px;
+     display: flex;
+ }
+ 
+ .footer-top nav, ul, li, a{
+     list-style: none;
+     text-decoration: none;
+ }
+ .footer-top li {
+     position: relative;
+     margin-top: 30px;
+ }
+ 
+ .footer-top a {
+     font-family: 'Centra No1';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 0.9375rem;
+     line-height: 19px;
+     color: #ccc;
+     opacity: 0.7;
+ }
+ .footer-top a:hover{
+     color: white;
+ }
+ .funding ul {
+     margin-top: 76px; 
+     margin-left: 210px;
+ }
+ .logo_bottom{
+     height: 88px;
+     width: 196px;
+     margin-left: 246px;
+     margin-top: 80px;
+ }
+ .hi{
+     opacity: 0.6;
+     font-size: 0.85rem;
+ }
+ 
+ .about ul {
+     margin-top: 76px; 
+     margin-left: 170px;
+     color: #ccc;
+ }
+ 
+ .footer-bottom{
+     background-color: #0B0B0B;
+ }
+ .ft{
+     display: flex;
+     color: #FFFFFF;
+     width: 1440px;
+     margin: 0 auto;
+     background-color: #0B0B0B;
+     align-items: center;
+     height: 60.63px;
+ }
+ .footer-bottom img{
+     margin-left: 260px;
+     margin-right: 17.22px;
+ }
+ 
+ .footer-bottom a{
+     color: #FFFFFF;
+     text-decoration: none;
+ }
+ 
+ .copyright p{
+     margin-left: 383px;
+     font-family: 'Centra No1';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 0.875rem;
+     line-height: 28px;
+     color: #FFFFFF;
+     opacity: 0.5;
+ }
+ 
+ .border-bottom{
+     display: none;
+ }
+ .language a{
+     font-family: 'Centra No1';
+     opacity: 0.6;
+ }
+ 
 
 @media only screen and (max-width: 375px){
     .header{
@@ -1010,16 +1011,18 @@ footer{
         margin-top: -50px;
     }
     .footer-bottom img{
-        margin-left: 260px;
-        margin-top: 27px;
         margin-left: 21px;
+    }
+    .language{
+        padding-top: 22px;
+        margin-bottom: 16px;
     }
     .copyright p{
         color: #FFFFFF;
         width: 298px;
         height: 48px;
         margin-left: 21px;
-        font-weight: 400;
+        font-weight: 500;
         font-size: 0.875rem;
         line-height: 24px;
     } 
@@ -1029,7 +1032,7 @@ footer{
 
     .menu{
         display: block;
-        margin-left: 190px;
+        margin-left: 234px;
         cursor: pointer;
         position: relative;
         margin-top: 17px;
@@ -1037,5 +1040,6 @@ footer{
     .ft{
         width: 375px;
         flex-direction: column;
+        align-items: flex-start;
     }
 }

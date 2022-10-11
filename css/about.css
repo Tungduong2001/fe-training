@@ -6,14 +6,29 @@
     font-family: Centra No1;
     src: url("../centrano1-and-no2-font/CentraNo1-Book.woff");
 }
+.wraper{
+    background-color: #edf8ef;
+    font-family: 'Centra No1';
+}
 .container{
     width: 1440px;
     margin: 0 auto;
 }
-
-main{
-    width: 100%;
+body{
     background-color: #edf8ef;
+}
+header{
+    border-bottom: 1px solid #ccc;
+}
+.header{
+    width: 1440px;
+    margin: 0 auto;
+}
+main{
+    width: 1440px;
+    background-color: #F2F7FF;
+    height: 3339px;
+    margin: 0 auto;
 }
 .logo{
     width: 146.67px;
@@ -23,9 +38,53 @@ main{
 }
 .navbar-rignt{
     display: flex;
-    margin-left: 586.83px;
+    margin-left: 779.83px;
 }
 
+.sign-in{
+    width: 48px;
+    height: 28px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 28px;
+    color: #000000;
+    opacity: 0.7;
+    margin-top: 26px;
+    text-decoration: none;
+}
+.sign-in:hover{
+    color: #ccc;
+}
+.sign-up{
+    width: 134px;
+    height: 38px;
+    margin-top: 21px;
+    margin-left: 32px;
+    background-color: #FFFFFF;
+    opacity: 0.9;
+    border-radius: 28px;
+    text-decoration: none;
+}
+
+.sign-up p{
+    width: 54px;
+    height: 28px;
+    margin-top: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 28px;
+    color: #A78730;
+    margin-left: 40px;
+}
+.menu{
+    display: none;
+}
+.sign-up:hover{
+    text-decoration: underline 1px solid #A78730;
+    background-color: #fafafa;
+}
 .header-top{
     display: flex;
 }
@@ -48,7 +107,6 @@ main{
 .insight a{
     width: 10px;
     height: 5px;
-    margin-left: 9px;
     margin-top: 3px;
     color: #000000;
 }
@@ -71,7 +129,6 @@ main{
     width: 10px;
     height: 5px;
     margin-top: 3px;
-    margin-left: 9px;
     color: #000000;
 }
 .profile{
@@ -187,7 +244,7 @@ main {
     height: 48px;   
     font-family: 'Centra No1';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 2.125rem;
     line-height: 48px;
     color: #A78730;
@@ -231,7 +288,6 @@ main {
     opacity: 0.8;
 }
 .content-right img{
-    margin-top: 8px;
     width: 26px;
     height: 26px;
 }
@@ -246,6 +302,7 @@ main {
     line-height: 26px;
     color: #000000;
     opacity: 0.8;
+    margin-top: 21.2px;
 }
 
 #background {
@@ -320,7 +377,6 @@ main {
 }
 
 .advisor-content img{
-    margin-top: 15.75px;
     width: 16.5px;
     height: 16.5px;
     cursor: pointer;
@@ -336,21 +392,23 @@ main {
     line-height: 26px;
     color: #000000;
     opacity: 0.8;
-    margin-top: 21.75px;
+    margin-top: 25px;
 }
 footer{
     margin-top: -15px;
-    width: 100%;    
     font-family: 'Centra No1';
     background-color: #292A2B;
 }
+.footer{
+    background-color: #292A2B;
+}
 .footer-top{
-    height: 258.3636474609375px;
     width: 1440px;
+    margin: 0 auto;
+    height: 258.3636474609375px;
     background-color: #292A2B;
     margin-top: 16px;
     display: flex;
-    margin: 0 auto;
 }
 
 .footer-top nav, ul, li, a{
@@ -365,14 +423,14 @@ footer{
 .footer-top a {
     font-family: 'Centra No1';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 0.9375rem;
     line-height: 19px;
-    color: #FFFFFF;
+    color: #ccc;
     opacity: 0.7;
 }
 .footer-top a:hover{
-    color: violet;
+    color: white;
 }
 .funding ul {
     margin-top: 76px; 
@@ -384,27 +442,31 @@ footer{
     margin-left: 246px;
     margin-top: 80px;
 }
+.hi{
+    opacity: 0.6;
+    font-size: 0.85rem;
+}
 
 .about ul {
     margin-top: 76px; 
     margin-left: 170px;
+    color: #ccc;
 }
 
 .footer-bottom{
-    width: 100%;
-    display: flex;
-    height: 60.64px;
     background-color: #0B0B0B;
-    color: #FFFFFF;
 }
 .ft{
     display: flex;
+    color: #FFFFFF;
     width: 1440px;
     margin: 0 auto;
+    background-color: #0B0B0B;
+    align-items: center;
+    height: 60.63px;
 }
 .footer-bottom img{
     margin-left: 260px;
-    margin-top: 21.64px;
     margin-right: 17.22px;
 }
 
@@ -417,18 +479,28 @@ footer{
     margin-left: 383px;
     font-family: 'Centra No1';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 0.875rem;
     line-height: 28px;
     color: #FFFFFF;
     opacity: 0.5;
-    margin-top: 12.64px;
 }
 
+.border-bottom{
+    display: none;
+}
+.language a{
+    font-family: 'Centra No1';
+    opacity: 0.6;
+}
+ 
 @media only screen and (max-width: 375px) {
     .container{
         width: 375px;
         margin: 0 auto;
+    }
+    .header{
+        width: 375px;
     }
     .logo{
         width: 98px;
@@ -441,6 +513,7 @@ footer{
         display: none;
     }
     main {
+        width: 375px;
         background-color: #edf8ef;
         height: 3399.29px;
     }
@@ -513,13 +586,12 @@ footer{
         width: 193px;
         height: 28px;
         font-size: 1.25rem;
-        line-height: 28px;
+        font-weight: 800;
     }
 
     .content-right img{
-        margin-top: 11.13px;
-        width: 13.75px;
-        height: 13.75px;
+        width: 16.75px;
+        height: 16.75px;
     }
 
     .content-right p{
@@ -588,9 +660,6 @@ footer{
         line-height: 34px;
     }
     .advisor-content img{
-        margin-top: 11.12px;
-        width: 13.75px;
-        height: 13.75px;
         cursor: pointer;
     }
     .advisor-content p {
@@ -600,10 +669,50 @@ footer{
         line-height: 22px;
         margin-top: 19.09px;
     }
+   
+
+    .logo_bottom{
+        height: 146px;
+        width: 66px;
+        margin-left: 4px;
+        margin-top: 25px;
+    }
+
+    .funding ul {
+        margin-top: -60px;
+        margin-left: -14px;
+    }
+
+    .funding li {
+        margin-top: 20px; 
+        
+    }
+
+    .about ul {
+        margin-top: 42px;
+        margin-left: -14px;
+    }
+
+    .about  li {
+        margin-top: 20px;
+    }
+
+    .border-bottom{
+        display: block;
+        border-bottom: 1px solid #ccc;
+        width: 300px;
+        margin-top: 25px;
+        margin-left: 27px;
+    }
+
+    .border-bottom:hover{
+        color: violet;
+    }
+
     .footer-top{
         height: 455px;
         width: 375px;
-        margin-top: -100px;
+        margin-top: 0px;
         display: flex;
         flex-direction: column;
     }
@@ -646,36 +755,38 @@ footer{
         color: violet;
     }
 
+    .ft{
+        width: 375px;
+        flex-direction: column;
+        align-items:flex-start;
+    }
     .footer-bottom{
         width: 375px;
         height: 133px;
         flex-direction: column;
         margin-top: -50px;
     }
-
+    .language{
+        padding-top: 27px;
+    }
     .footer-bottom img{
         margin-left: 260px;
-        margin-top: 27px;
         margin-left: 21px;
     }
     .copyright p{
-        color: #FFFFFF;
         width: 298px;
         height: 48px;
         margin-left: 21px;
-        font-weight: 400;
+        font-weight: 500;
         font-size: 0.875rem;
         line-height: 24px;
+        margin-top: 15px;
     } 
     .menu{
         display: block;
         margin-left: 234px;
         cursor: pointer;
         position: relative;
-        margin-top: 13px;
-    }
-    .ft{
-        width: 375px;
-        flex-direction: column;
+        margin-top: 20px;
     }
 }

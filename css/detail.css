@@ -5,6 +5,11 @@
     font-family: Centra No1;
     src: url("../centrano1-and-no2-font/CentraNo1-Book.woff");
 }
+.wraper{
+    background-color: #E5E5E5;
+    font-family: 'Centra No1';
+    font-style: normal;
+}
 .container{
     width: 1440px;
     background-color: #E5E5E5;
@@ -13,12 +18,20 @@
 #contain{
     padding-bottom: 100px;
 }
+.header{
+    width: 1440px;
+    margin: 0 auto;
+}
+header{
+    border-bottom: 1px solid #ccc;
+}
 body{
-    font-family: 'Centra No1';
-    font-style: normal;
+    background-color: #E5E5E5;
+    
 }
 main{
-    width: 100%;
+    width: 1440px;
+    margin: 0 auto;
     background-color: #E5E5E5;
 }
 .logo{
@@ -29,9 +42,53 @@ main{
 }
 .navbar-rignt{
     display: flex;
-    margin-left: 586.83px;
+    margin-left: 779.83px;
 }
 
+.sign-in{
+    width: 48px;
+    height: 28px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 28px;
+    color: #000000;
+    opacity: 0.7;
+    margin-top: 26px;
+    text-decoration: none;
+}
+.sign-in:hover{
+    color: #ccc;
+}
+.sign-up{
+    width: 134px;
+    height: 38px;
+    margin-top: 21px;
+    margin-left: 32px;
+    background-color: #FFFFFF;
+    opacity: 0.9;
+    border-radius: 28px;
+    text-decoration: none;
+}
+
+.sign-up p{
+    width: 54px;
+    height: 28px;
+    margin-top: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 28px;
+    color: #A78730;
+    margin-left: 40px;
+}
+.menu{
+    display: none;
+}
+.sign-up:hover{
+    text-decoration: underline 1px solid #A78730;
+    background-color: #fafafa;
+}
 .header-top{
     display: flex;
 }
@@ -54,7 +111,6 @@ main{
 .insight a{
     width: 10px;
     height: 5px;
-    margin-left: 9px;
     margin-top: 3px;
     color: #000000;
 }
@@ -77,7 +133,6 @@ main{
     width: 10px;
     height: 5px;
     margin-top: 3px;
-    margin-left: 9px;
     color: #000000;
 }
 .profile{
@@ -202,6 +257,7 @@ main{
 .function{
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .function h3{
@@ -214,11 +270,11 @@ main{
 }
 .function p{
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.25rem;
-    line-height: 24px;
     color: #A78730;
     margin-left: 209px;
+    padding-top: 2px;
 }
 .line{
     border: 1px solid #ccc;
@@ -229,13 +285,14 @@ main{
 
 .category{
     display: flex;
+    justify-items: center;
 }
 .category a{
     color: #000000;
-    margin-left: 28.8px;
+    margin-left: 20px;
 }
 .category-span{
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1rem;
     line-height: 24px;
 }
@@ -253,7 +310,6 @@ main{
     width: 147px;
     height: 41px;
     border-radius: 32px;
-    margin-top: 48px;
     margin-left: 327px;
     cursor: pointer;
     background-color: #A78730;
@@ -277,17 +333,19 @@ main{
 }
 
 footer{
-    width: 100%;
-    background-color: #292A2B;
+    font-family: 'Centra No1';
 }
 .footer-top{
-    height: 258.3636474609375px;
     width: 1440px;
-    background-color: #292A2B;
-    display: flex;
     margin: 0 auto;
+    height: 258.3636474609375px;
+    background-color: #292A2B;
+    margin-top: 16px;
+    display: flex;
 }
-
+.footer{
+    background-color: #292A2B;
+ }
 .footer-top nav, ul, li, a{
     list-style: none;
     text-decoration: none;
@@ -303,11 +361,15 @@ footer{
     font-weight: 400;
     font-size: 0.9375rem;
     line-height: 19px;
-    color: #FFFFFF;
+    color: #ccc;
     opacity: 0.7;
 }
+.hi{
+    opacity: 0.6;
+    font-size: 0.875rem;
+}
 .footer-top a:hover{
-    color: violet;
+    color: #FFFFFF;
 }
 .funding ul {
     margin-top: 76px; 
@@ -323,24 +385,25 @@ footer{
 .about ul {
     margin-top: 76px; 
     margin-left: 170px;
+    color: #ccc;
 }
 
 
 .footer-bottom{
-    width: 100%;
-    display: flex;
-    height: 60.64px;
     background-color: #0B0B0B;
-    color: #FFFFFF;
+
 }
 .ft{
     display: flex;
+    color: #FFFFFF;
     width: 1440px;
     margin: 0 auto;
+    background-color: #0B0B0B;
+    align-items: center;
+    height: 60.63px;
 }
 .footer-bottom img{
     margin-left: 260px;
-    margin-top: 21.64px;
     margin-right: 17.22px;
 }
 
@@ -358,7 +421,6 @@ footer{
     line-height: 28px;
     color: #FFFFFF;
     opacity: 0.5;
-    margin-top: 12.64px;
 }
 
 
@@ -370,8 +432,14 @@ footer{
   'opsz' 40
 }
 
-
+.language a{
+    font-family: 'Centra No1';
+    opacity: 0.6;
+}
 @media only screen and (max-width: 375px){
+    .header{
+        width: 375px;
+    }
     .container{
         width: 375px;
     }
@@ -381,6 +449,11 @@ footer{
         margin-left: 2px;
         margin-top: -3px;
         margin-bottom: 5px;
+    }
+    .header-top{
+        width: 375px;
+        height: 59px;
+        background-color: #F9F9F9;
     }
     .navbar-rignt{
         display: none;
@@ -394,9 +467,12 @@ footer{
     .formas{
         margin-left: 20px;
     }
+    main{
+        width: 375px;
+    }
     .main{
         width: 100%;
-        height: 2177px;
+        height: 2268px;
         margin-left: 0px;
     }
     .grants span{
@@ -430,6 +506,10 @@ footer{
         margin-top: 52px;
         margin-left: 20px;
     }
+    .function{
+        width: 320px;
+        justify-content: space-between;
+    }
     .function h3{
         width: 101px;
         height: 24px;
@@ -441,13 +521,13 @@ footer{
     }
     .line{
         border: 1px solid #ccc;
-        width: 90%;
+        width: 92%;
         margin-top: 24px;
         margin-bottom: 24px;
     }
     #pencial{
-        font-size: 0.12rem;
-        margin-top: 6px;
+        font-size: 0.875rem;
+        margin-top: 4px;
     }
     .description{
         width: 335px;
@@ -518,8 +598,10 @@ footer{
 
     .footer-bottom img{
         margin-left: 260px;
-        margin-top: 27px;
         margin-left: 21px;
+    }
+    .language{
+        padding-top: 21px;
     }
     .copyright p{
         color: #FFFFFF;
@@ -533,5 +615,9 @@ footer{
     .ft{
         width: 375px;
         flex-direction: column;
+        align-items: flex-start; 
+    }
+    .language{
+        margin-bottom: 16px;
     }
 }
