@@ -56,7 +56,7 @@ video {
 .insight p{
     font-family: 'Centra No1';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1rem;
     line-height: 28px;
     color: #FFFFFF;
@@ -78,7 +78,7 @@ video {
 .administration p{
     font-family: 'Centra No1';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1rem;
     line-height: 28px;
     color: #FFFFFF;
@@ -112,7 +112,7 @@ video {
 .material-symbols-outlined{
     font-variation-settings:
     'FILL' 1,
-    'wght' 400,
+    'wght' 600,
     'GRAD' 0,
     'opsz' 48
 }
@@ -138,7 +138,7 @@ video {
     height: 91px;
     font-family: 'Centra No1';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 4.375rem;
     line-height: 91px;
     color: #FFFFFF;
@@ -154,7 +154,7 @@ video {
     margin-left: 165px;
     font-family: 'Centra No1';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1.375rem;
     line-height: 30px;
     color: #FFFFFF;
@@ -205,7 +205,7 @@ article{
     margin-top: 26px;
     font-family: 'Centra No1';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1rem;
     line-height: 28px;
     color: #000000;
@@ -218,7 +218,7 @@ article{
     margin-top: 12px;
     font-family: 'Centra No1';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1rem;
     line-height: 28px;
     color: #000000;
@@ -238,7 +238,7 @@ article{
     height: 10px;
     font-family: 'Centra No1';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1rem;
     line-height: 28px;
     color: #000000;
@@ -345,7 +345,7 @@ article{
     height: 28px;
     font-family: 'Centra No1';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1rem;
     line-height: 28px;
     margin-left: 20px;
@@ -360,7 +360,7 @@ article{
     height: 28px;
     font-family: 'Centra No1';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1rem;
     line-height: 28px;
     margin-left: 20px;
@@ -373,7 +373,7 @@ article{
     height: 28px;
     font-family: 'Centra No1';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1rem;
     line-height: 28px;
     margin-left: 20px;
@@ -386,7 +386,7 @@ article{
     height: 28px;
     font-family: 'Centra No1';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1rem;
     line-height: 28px;
     margin-left: 20px;
@@ -442,7 +442,7 @@ article{
 .visa p{
     font-family: 'Centra No1';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 0.9375rem;
     line-height: 19px;
     color: #FFFFFF;
@@ -460,7 +460,7 @@ article{
     height: 28px;
     font-family: 'Centra No1';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1rem;
     line-height: 28px;
     color: #70A693;
@@ -491,7 +491,7 @@ article{
 .footer-top a {
     font-family: 'Centra No1';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 0.9375rem;
     line-height: 19px;
     color: #ccc;
@@ -546,7 +546,7 @@ article{
     margin-left: 383px;
     font-family: 'Centra No1';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 0.875rem;
     line-height: 28px;
     color: #FFFFFF;
@@ -589,7 +589,7 @@ article{
     .title{
         width: 226px;
         height: 39px;
-        font-weight: 500;
+        font-weight: 600;
         font-size: 1.875rem;
         line-height: 39px;
         margin-left: 14px;
@@ -603,7 +603,7 @@ article{
         height: 30px;
         margin-left: 13px;
         margin-top: 4px;
-        font-weight: 400;
+        font-weight: 600;
         font-size: 0.875rem;
         line-height: 30px;
     }
@@ -641,7 +641,7 @@ article{
     .main-left h2{
         width: 183px;
         height: 28px;
-        font-weight: 500;
+        font-weight: 600;
         font-size: 1.125rem;
         line-height: 28px;
         margin-left: 24px;
@@ -658,7 +658,7 @@ article{
         margin-top: 10px;
         font-family: 'Centra No1';
         font-style: normal;
-        font-weight: 400;
+        font-weight: 600;
         font-size: 1rem;
         line-height: 26px;
         color: #000000;
@@ -747,7 +747,7 @@ article{
     .main-right h2{
         width: 188px;
         height: 28px;
-        font-weight: 500;
+        font-weight: 600;
         font-size: 1.125rem;
         line-height: 28px;
         margin-left: 24px;
@@ -821,7 +821,7 @@ article{
         width: 298px;
         height: 48px;
         margin-left: 21px;
-        font-weight: 400;
+        font-weight: 600;
         font-size: 0.875rem;
         line-height: 24px;
         margin-top: 15px;
