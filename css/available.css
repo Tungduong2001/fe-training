@@ -14,6 +14,9 @@
     width: 1440px;
     margin: 0 auto;
 }
+body{
+    background-color: #F2F7FF;
+}
 header{
     border-bottom: 1px solid #ccc;
 }
@@ -227,7 +230,7 @@ main{
     font-size: 1rem;
     line-height: 28px;
     margin-top: 13px;
-    margin-left: 18px;
+    margin-left: 13px;
 }
 
 .statistical__number #p2 {
@@ -239,7 +242,7 @@ main{
     font-size: 1rem;
     line-height: 28px;
     margin-top: 13px;
-    margin-left: 18px;
+    margin-left: 13px;
 }
 
 .statistical__number #p3 {
@@ -251,7 +254,7 @@ main{
     font-size: 1rem;
     line-height: 28px;
     margin-top: 13px;
-    margin-left: 18px;
+    margin-left: 13px;
 }
 
 .statistical__number #p4 {
@@ -263,7 +266,7 @@ main{
     font-size: 1rem;
     line-height: 28px;
     margin-top: 13px;
-    margin-left: 18px;
+    margin-left: 13px;
 }
 
 
@@ -440,7 +443,8 @@ main{
 .sort span{
     color: #A78730;
     font-weight: 600;
-    margin-left: 8px;
+    font-size: 0.9375rem;
+    margin-left: 2px;
 }
 
 .show{
@@ -456,9 +460,10 @@ main{
 }
 
 .show span{
-    margin-left: 13px;
+    margin-left: 25px;
     color: #A78730;
     font-weight: 600;
+    font-size: 0.9375rem;
 }
 
 .main-content{
@@ -528,7 +533,7 @@ main{
     height: 24px;
     margin-left: 15px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 0.875rem;
     line-height: 24px;
     color: #000000;
@@ -800,7 +805,7 @@ footer{
     }
     .statistical{
         margin-left: 15px;
-        margin-top: -150px;
+        margin-top: -160px;
         width: 287px;
         height: 285px;
         cursor: pointer;
@@ -923,6 +928,14 @@ footer{
         width: 350px;
         height: 191px;
         margin: 24px 0;
+    }
+    .main-content div h2{
+        width: 310px;
+        height: 61px;
+        display: flex;
+        align-items: center;
+        padding-top: 33px;
+        margin-bottom: 26px;
     }
     .div1{
         display: none;
