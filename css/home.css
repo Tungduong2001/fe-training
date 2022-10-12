@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
 }
 
@@ -6,54 +6,63 @@
     font-family: Centra No1;
     src: url("../centrano1-and-no2-font/CentraNo1-Book.woff");
 }
-#wraper{
+
+#wraper {
     margin: 0 auto;
 }
-header{
+
+header {
     height: 660px;
     background-color: #94d8da;
 }
-.header{
+
+.header {
     width: 1440px;
     margin: 0 auto;
 }
+
 video {
     width: 1440px;
     height: 660px;
     position: absolute;
     object-fit: cover;
-    margin: 0 auto ;    
+    margin: 0 auto;
 }
-.container{
+
+.container {
     width: 1440px;
     margin: 0 auto;
 }
-.header-top{
+
+.header-top {
     position: relative;
     display: flex;
 }
-.header-bottom{
+
+.header-bottom {
     position: relative;
 }
-.logo{
+
+.logo {
     height: 66px;
     width: 146.5548095703125px;
     margin-left: 156px;
     margin-top: 2px;
 }
 
-.navbar-rignt{
+.navbar-rignt {
     display: flex;
 }
 
-.insight{
+.insight {
     width: 55px;
     height: 28px;
     margin-left: 573.45px;
     display: flex;
     margin-top: 19px;
 }
-.insight p{
+
+.insight p {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 500;
@@ -61,20 +70,23 @@ video {
     line-height: 28px;
     color: #FFFFFF;
 }
-.insight a{
+
+.insight a {
     width: 10px;
     height: 5px;
     margin-top: 2px;
     color: #FFFFFF;
 }
-.administration{
+
+.administration {
     display: flex;
     width: 128px;
     height: 28px;
     margin-left: 40px;
     margin-top: 19px;
 }
-.administration p{
+
+.administration p {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 500;
@@ -82,13 +94,15 @@ video {
     line-height: 28px;
     color: #FFFFFF;
 }
-.administration a{
+
+.administration a {
     width: 10px;
     height: 5px;
     margin-top: 2px;
     color: #FFFFFF;
 }
-.profile{
+
+.profile {
     display: flex;
     width: 134px;
     height: 38px;
@@ -100,38 +114,42 @@ video {
     margin-left: 32px;
     margin-top: 14px;
     font-family: 'Centra No1';
-} 
-.profile a{
+}
+
+.profile a {
     color: #A78730;
     margin-top: 6.5px;
     width: 10px;
     height: 5px;
 }
-.material-symbols-outlined{
+
+.material-symbols-outlined {
     font-variation-settings:
-    'FILL' 1,
-    'wght' 600,
-    'GRAD' 0,
-    'opsz' 48
+        'FILL' 1,
+        'wght' 600,
+        'GRAD' 0,
+        'opsz' 48
 }
 
-#person{
+#person {
     margin-left: 20.73px;
     margin-top: 5px;
 }
-.profile p{
+
+.profile p {
     width: 47px;
     height: 28px;
     margin-top: 8px;
     margin-bottom: 5px;
     margin-left: 8.7px;
-} 
+}
 
-.menu{
+.menu {
     display: none;
     color: #FFFFFF;
 }
-.title{
+
+.title {
     width: 527px;
     height: 91px;
     font-family: 'Centra No1';
@@ -143,11 +161,12 @@ video {
     margin-left: 165px;
     margin-top: 181px;
 }
-.subtilte{
+
+.subtilte {
     display: flex;
 }
 
-.subtilte-1{
+.subtilte-1 {
     height: 30px;
     margin-left: 165px;
     font-family: 'Centra No1';
@@ -157,7 +176,8 @@ video {
     line-height: 30px;
     color: #FFFFFF;
 }
-.subtilte-2{
+
+.subtilte-2 {
     width: 238px;
     height: 30px;
     font-family: 'Centra No1';
@@ -169,14 +189,14 @@ video {
     margin-left: 9px;
 }
 
-article{
+article {
     display: flex;
     width: 1440px;
     margin: 0 auto;
     height: 774px;
 }
 
-.main-left{
+.main-left {
     width: 540px;
     height: 475px;
     background: #F2F7FF;
@@ -184,7 +204,8 @@ article{
     margin-left: 165px;
     margin-top: 149px;
 }
-.main-left h2{
+
+.main-left h2 {
     width: 223px;
     height: 32px;
     font-family: 'Centra No1';
@@ -196,7 +217,8 @@ article{
     padding-top: 40px;
     color: #000000;
 }
-.p1{
+
+.p1 {
     width: 413px;
     margin-left: 31px;
     margin-top: 26px;
@@ -208,7 +230,8 @@ article{
     color: #000000;
     opacity: 0.7;
 }
-.p2{
+
+.p2 {
     width: 413px;
     height: 56px;
     margin-left: 31px;
@@ -222,17 +245,18 @@ article{
     opacity: 0.7;
 }
 
-.main__main_button{
+.main__main_button {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.statistical{
+.statistical {
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 50px;
 }
-.statistical__title h2{
+
+.statistical__title h2 {
     width: 84px;
     height: 10px;
     font-family: 'Centra No1';
@@ -245,7 +269,8 @@ article{
     margin-left: 30px;
     margin-bottom: 8px;
 }
-.statistical__number{
+
+.statistical__number {
     display: grid;
     grid-template-columns: 15px 20px;
     margin-left: 30px;
@@ -267,7 +292,7 @@ article{
 
 }
 
-.statistical__number #span3{
+.statistical__number #span3 {
     color: #EB5181;
     width: 24px;
     height: 24px;
@@ -275,69 +300,80 @@ article{
 
 }
 
-.statistical__number #span4{
+.statistical__number #span4 {
     color: #EF8A40;
     width: 24px;
     height: 24px;
     margin-top: 8px;
 
 }
+
 @property --num {
     syntax: "<integer>";
     initial-value: 0;
     inherits: false;
 }
-.statistical__number p{
+
+.statistical__number p {
     animation: counter 7s alternate ease-in-out;
     counter-reset: num var(--num);
     animation-fill-mode: forwards;
 }
 
-.statistical__number p::after{
+.statistical__number p::after {
     content: counter(num);
 }
 
-.user{
+.user {
     animation: counteruser 7s alternate ease-in-out;
     counter-reset: num var(--num);
     animation-fill-mode: forwards;
 }
-.user::after{
+
+.user::after {
     content: counter(num);
 }
+
 @keyframes counter {
     from {
-      --num: 0;
+        --num: 0;
     }
+
     to {
-      --num: 785;
+        --num: 785;
     }
 }
 
 @keyframes counteruser {
     from {
-      --num: 0;
+        --num: 0;
     }
+
     to {
-      --num: 58496;
+        --num: 58496;
     }
 }
-.milion{
+
+.milion {
     animation: milion 7s alternate ease-in-out;
     counter-reset: num var(--num);
     animation-fill-mode: forwards;
 }
-.milion::after{
+
+.milion::after {
     content: counter(num);
 }
+
 @keyframes milion {
     from {
-      --num: 0;
+        --num: 0;
     }
+
     to {
-      --num: 161;
+        --num: 161;
     }
 }
+
 .statistical__number #p1 {
     color: #4350AF;
     width: 26px;
@@ -349,7 +385,7 @@ article{
     line-height: 28px;
     margin-left: 20px;
     margin-top: 7px;
- 
+
 }
 
 
@@ -392,7 +428,7 @@ article{
     margin-top: 7px;
 }
 
-.main-right{
+.main-right {
     width: 540px;
     height: 475px;
     background: #FFFFE0;
@@ -401,7 +437,7 @@ article{
     margin-top: 149px;
 }
 
-.main-right h2{
+.main-right h2 {
     width: 206px;
     color: #000000;
     height: 32px;
@@ -413,7 +449,8 @@ article{
     margin-left: 30px;
     padding-top: 40px;
 }
-.main-right .p3{
+
+.main-right .p3 {
     width: 481px;
     height: 56px;
     font-family: 'Centra No1';
@@ -427,7 +464,7 @@ article{
     margin-top: 37px;
 }
 
-.visa{
+.visa {
     width: 160px;
     height: 40px;
     background: #A28840;
@@ -435,10 +472,11 @@ article{
     margin-left: 190px;
 }
 
-.visa:hover{
+.visa:hover {
     background-color: #967d38;
 }
-.visa p{
+
+.visa p {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 500;
@@ -450,11 +488,11 @@ article{
     margin-top: 3px;
 }
 
-.p3{
+.p3 {
     margin-bottom: 31.5px;
 }
 
-.p3 span{
+.p3 span {
     width: 50px;
     height: 28px;
     font-family: 'Centra No1';
@@ -466,10 +504,11 @@ article{
 }
 
 
-.footer{
-   background-color: #292A2B;
+.footer {
+    background-color: #292A2B;
 }
-.footer-top{
+
+.footer-top {
     width: 1440px;
     margin: 0 auto;
     height: 258.3636474609375px;
@@ -478,10 +517,14 @@ article{
     display: flex;
 }
 
-.footer-top nav, ul, li, a{
+.footer-top nav,
+ul,
+li,
+a {
     list-style: none;
     text-decoration: none;
 }
+
 .footer-top li {
     position: relative;
     margin-top: 30px;
@@ -496,33 +539,38 @@ article{
     color: #ccc;
     opacity: 0.7;
 }
-.footer-top a:hover{
+
+.footer-top a:hover {
     color: white;
 }
+
 .funding ul {
-    margin-top: 76px; 
+    margin-top: 76px;
     margin-left: 210px;
 }
-.logo_bottom{
+
+.logo_bottom {
     height: 88px;
     width: 196px;
     margin-left: 246px;
     margin-top: 80px;
 }
-.hi{
+
+.hi {
     opacity: 0.6;
 }
 
 .about ul {
-    margin-top: 76px; 
+    margin-top: 76px;
     margin-left: 170px;
     color: #ccc;
 }
 
-.footer-bottom{
+.footer-bottom {
     background-color: #0B0B0B;
 }
-.ft{
+
+.ft {
     display: flex;
     color: #FFFFFF;
     width: 1440px;
@@ -531,17 +579,18 @@ article{
     align-items: center;
     height: 60.63px;
 }
-.footer-bottom img{
+
+.footer-bottom img {
     margin-left: 260px;
     margin-right: 17.22px;
 }
 
-.footer-bottom a{
+.footer-bottom a {
     color: #FFFFFF;
     text-decoration: none;
 }
 
-.copyright p{
+.copyright p {
     margin-left: 383px;
     font-family: 'Centra No1';
     font-style: normal;
@@ -552,40 +601,46 @@ article{
     opacity: 0.5;
 }
 
-.border-bottom{
+.border-bottom {
     display: none;
 }
-.language a{
+
+.language a {
     font-family: 'Centra No1';
     opacity: 0.6;
 }
 
 /* Responsive mobile */
 
-@media only screen and (max-width: 375px){
-    .header{
+@media only screen and (max-width: 375px) {
+    .header {
         width: 375px;
     }
-    .container{
+
+    .container {
         width: 375px;
     }
+
     video {
         width: 375px;
         height: 328px;
         position: absolute;
         object-fit: cover;
     }
-    header{
+
+    header {
         width: 100%;
         height: 328px;
     }
-    .logo{
+
+    .logo {
         height: 48px;
         width: 107px;
         margin-left: 1px;
         margin-top: 6px;
     }
-    .title{
+
+    .title {
         width: 226px;
         height: 39px;
         font-weight: 500;
@@ -594,20 +649,22 @@ article{
         margin-left: 14px;
         margin-top: 47px;
     }
-    .navbar-rignt{
+
+    .navbar-rignt {
         display: none;
     }
-    .subtilte-1{
+
+    .subtilte-1 {
         width: 167px;
         height: 30px;
         margin-left: 13px;
         margin-top: 4px;
-        font-weight: 600;
+        font-weight: 500;
         font-size: 0.875rem;
         line-height: 30px;
     }
 
-    .subtilte-2{
+    .subtilte-2 {
         width: 152px;
         height: 30px;
         margin-top: 4px;
@@ -618,17 +675,19 @@ article{
         line-height: 30px;
     }
 
-    main{
+    main {
         width: 100%;
         margin: auto;
     }
-    article{
+
+    article {
         display: flex;
         flex-direction: column;
         width: 375px;
 
     }
-    .main-left{
+
+    .main-left {
         width: 350px;
         height: 584px;
         background: #F1F5FC;
@@ -637,7 +696,7 @@ article{
         margin-top: 56px;
     }
 
-    .main-left h2{
+    .main-left h2 {
         width: 183px;
         height: 28px;
         font-weight: 600;
@@ -647,35 +706,40 @@ article{
         padding-top: 32px;
     }
 
-    .p1{
+    .p1 {
         display: none;
     }
-    .p2{
+
+    .p2 {
         width: 297px;
         height: 78px;
         margin-left: 24px;
         margin-top: 10px;
         font-family: 'Centra No1';
         font-style: normal;
-        font-weight: 600;
+        font-weight: 500;
         font-size: 1rem;
         line-height: 26px;
         color: #000000;
         opacity: 0.7;
     }
 
-    .main__main_button{
+    .main__main_button {
         display: flex;
         flex-direction: column;
         margin-top: 5px;
-    } 
+    }
 
-    #statistical{
+    #statistical {
         margin-top: -65px;
     }
-   
 
-    .statistical__title h2{
+    .statistical {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .statistical__title h2 {
         width: 84px;
         height: 28px;
         opacity: 0.8;
@@ -689,7 +753,7 @@ article{
         height: 24px;
         margin-top: -7px;
     }
-    
+
     .statistical__number #span2 {
         color: #619D87;
         width: 24px;
@@ -697,15 +761,15 @@ article{
         margin-top: -7px;
 
     }
-    
-    .statistical__number #span3{
+
+    .statistical__number #span3 {
         color: #EB5181;
         width: 24px;
         height: 24px;
         margin-top: -7px;
     }
-    
-    .statistical__number #span4{
+
+    .statistical__number #span4 {
         color: #EF8A40;
         width: 24px;
         height: 24px;
@@ -713,7 +777,7 @@ article{
 
     }
 
-    .visa{
+    .visa {
         width: 150px;
         height: 40px;
         border-radius: 22px;
@@ -721,7 +785,7 @@ article{
         margin-bottom: 40px;
     }
 
-    .main-right{
+    .main-right {
         width: 350px;
         height: 392px;
         color: #FFFFE0;
@@ -730,7 +794,7 @@ article{
         margin-bottom: 200px;
     }
 
-    .main-right .p3{
+    .main-right .p3 {
         width: 308px;
         height: 84px;
         font-family: 'Centra No1';
@@ -743,7 +807,7 @@ article{
         margin-left: 24px;
     }
 
-    .main-right h2{
+    .main-right h2 {
         width: 188px;
         height: 28px;
         font-weight: 600;
@@ -753,7 +817,7 @@ article{
         padding-top: 32px;
     }
 
-    .footer-top{
+    .footer-top {
         height: 455px;
         width: 375px;
         margin-top: 350px;
@@ -761,7 +825,7 @@ article{
         flex-direction: column;
     }
 
-    .logo_bottom{
+    .logo_bottom {
         height: 146px;
         width: 66px;
         margin-left: 4px;
@@ -774,8 +838,8 @@ article{
     }
 
     .funding li {
-        margin-top: 20px; 
-        
+        margin-top: 20px;
+
     }
 
     .about ul {
@@ -783,11 +847,11 @@ article{
         margin-left: -14px;
     }
 
-    .about  li {
+    .about li {
         margin-top: 20px;
     }
 
-    .border-bottom{
+    .border-bottom {
         display: block;
         border-bottom: 1px solid #ccc;
         width: 300px;
@@ -795,28 +859,30 @@ article{
         margin-left: 27px;
     }
 
-    .border-bottom:hover{
+    .border-bottom:hover {
         color: violet;
     }
 
-    .ft{
+    .ft {
         width: 375px;
         flex-direction: column;
-        align-items:flex-start;
+        align-items: flex-start;
     }
-    .footer-bottom{
+
+    .footer-bottom {
         width: 375px;
         height: 133px;
         flex-direction: column;
         margin-top: -50px;
     }
 
-    .footer-bottom img{
+    .footer-bottom img {
         margin-left: 260px;
         margin-top: 27px;
         margin-left: 21px;
     }
-    .copyright p{
+
+    .copyright p {
         width: 298px;
         height: 48px;
         margin-left: 21px;
@@ -824,26 +890,33 @@ article{
         font-size: 0.875rem;
         line-height: 24px;
         margin-top: 15px;
-    } 
-    .statistical__number #p1{
+    }
+
+    .statistical__number #p1 {
         margin-top: -7px;
     }
-    .statistical__number #p2{
+
+    .statistical__number #p2 {
         margin-top: -7px;
     }
-    .statistical__number #p3{
+
+    .statistical__number #p3 {
         margin-top: -7px;
     }
-    .statistical__number #p4{
+
+    .statistical__number #p4 {
         margin-top: -7px;
     }
-    .statistical__number{
+
+    .statistical__number {
         margin-bottom: 35px;
     }
-    .statistical__number{
+
+    .statistical__number {
         margin-left: 22px;
     }
-    .menu{
+
+    .menu {
         display: block;
         margin-left: 234px;
         cursor: pointer;

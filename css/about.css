@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
 }
 
@@ -6,42 +6,50 @@
     font-family: Centra No1;
     src: url("../centrano1-and-no2-font/CentraNo1-Book.woff");
 }
-.wraper{
+
+.wraper {
     background-color: #edf8ef;
     font-family: 'Centra No1';
 }
-.container{
+
+.container {
     width: 1440px;
     margin: 0 auto;
 }
-body{
+
+body {
     background-color: #edf8ef;
 }
-header{
+
+header {
     border-bottom: 1px solid #ccc;
 }
-.header{
+
+.header {
     width: 1440px;
     margin: 0 auto;
 }
-main{
+
+main {
     width: 1440px;
     background-color: #F2F7FF;
     height: 3339px;
     margin: 0 auto;
 }
-.logo{
+
+.logo {
     width: 146.67px;
     height: 66px;
     margin-left: 156px;
     margin-top: 2px;
 }
-.navbar-rignt{
+
+.navbar-rignt {
     display: flex;
     margin-left: 779.83px;
 }
 
-.sign-in{
+.sign-in {
     width: 48px;
     height: 28px;
     font-style: normal;
@@ -53,10 +61,12 @@ main{
     margin-top: 26px;
     text-decoration: none;
 }
-.sign-in:hover{
+
+.sign-in:hover {
     color: #ccc;
 }
-.sign-up{
+
+.sign-up {
     width: 134px;
     height: 38px;
     margin-top: 21px;
@@ -67,7 +77,7 @@ main{
     text-decoration: none;
 }
 
-.sign-up p{
+.sign-up p {
     width: 54px;
     height: 28px;
     margin-top: 5px;
@@ -78,25 +88,28 @@ main{
     color: #A78730;
     margin-left: 40px;
 }
-.menu{
+
+.menu {
     display: none;
 }
-.sign-up:hover{
+
+.sign-up:hover {
     text-decoration: underline 1px solid #A78730;
     background-color: #fafafa;
 }
-.header-top{
+
+.header-top {
     display: flex;
 }
 
-.insight{
+.insight {
     width: 55px;
     height: 28px;
     display: flex;
     margin-top: 26px;
 }
 
-.insight p{
+.insight p {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
@@ -104,20 +117,23 @@ main{
     line-height: 28px;
     color: #000000;
 }
-.insight a{
+
+.insight a {
     width: 10px;
     height: 5px;
     margin-top: 3px;
     color: #000000;
 }
-.administration{
+
+.administration {
     display: flex;
     width: 128px;
     height: 28px;
     margin-left: 40px;
     margin-top: 26px;
 }
-.administration p{
+
+.administration p {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
@@ -125,13 +141,15 @@ main{
     line-height: 28px;
     color: #000000;
 }
-.administration a{
+
+.administration a {
     width: 10px;
     height: 5px;
     margin-top: 3px;
     color: #000000;
 }
-.profile{
+
+.profile {
     display: flex;
     width: 134px;
     height: 38px;
@@ -142,34 +160,37 @@ main{
     margin-left: 32px;
     font-family: 'Centra No1';
     margin-top: 19px;
-} 
-.profile a{
+}
+
+.profile a {
     color: #A78730;
     margin-top: 9px;
     width: 10px;
     height: 5px;
 }
-.material-symbols-outlined{
+
+.material-symbols-outlined {
     font-variation-settings:
-    'FILL' 1,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 48
+        'FILL' 1,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
 }
 
-#person{
+#person {
     margin-left: 20.73px;
     margin-top: 7px;
 }
-.profile p{
+
+.profile p {
     width: 47px;
     height: 28px;
     margin-top: 9px;
     margin-bottom: 5px;
     margin-left: 8.7px;
-} 
+}
 
-.menu{
+.menu {
     display: none;
 }
 
@@ -178,7 +199,7 @@ main {
     height: 2467px;
 }
 
-.title{
+.title {
     margin-top: 68px;
     width: 302px;
     height: 54px;
@@ -190,15 +211,18 @@ main {
     line-height: 54px;
     color: rgba(#000000, 0.8);
 }
-.hr{
+
+.hr {
     border-bottom: 1px solid #ccc;
     margin-top: 7px;
 }
-.hr:hover{
+
+.hr:hover {
     cursor: pointer;
     border-bottom: 1px solid violet;
 }
-.content1{
+
+.content1 {
     width: 777px;
     height: 56px;
     margin-left: 165px;
@@ -211,7 +235,8 @@ main {
     color: #000000;
     opacity: 0.8;
 }
-.content2{
+
+.content2 {
     width: 777px;
     height: 84px;
     margin-left: 165px;
@@ -224,7 +249,8 @@ main {
     color: #000000;
     opacity: 0.8;
 }
-.content3{
+
+.content3 {
     width: 691px;
     height: 56px;
     margin-left: 165px;
@@ -237,11 +263,12 @@ main {
     color: #000000;
     opacity: 0.8;
 }
-.team{
+
+.team {
     margin-left: 164px;
     margin-top: 80px;
     width: 86px;
-    height: 48px;   
+    height: 48px;
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 600;
@@ -249,12 +276,13 @@ main {
     line-height: 48px;
     color: #A78730;
 }
-.main-content{
+
+.main-content {
     display: flex;
     flex-direction: row;
 }
 
-.background{
+.background {
     background-color: #FFFFFF;
     width: 248.73px;
     height: 380.71px;
@@ -263,7 +291,8 @@ main {
     border-radius: 6px;
     position: relative;
 }
-.background img{
+
+.background img {
     position: absolute;
     margin-top: 40.61px;
     border-radius: 7px;
@@ -272,11 +301,12 @@ main {
     height: 298px;
 }
 
-.content-right{
+.content-right {
     margin-top: 121px;
     margin-left: 227.2px;
 }
-.content-right h2{
+
+.content-right h2 {
     width: 232px;
     height: 38px;
     font-family: 'Centra No1';
@@ -287,12 +317,13 @@ main {
     color: #000000;
     opacity: 0.8;
 }
-.content-right img{
+
+.content-right img {
     width: 26px;
     height: 26px;
 }
 
-.content-right p{
+.content-right p {
     width: 557px;
     height: 156px;
     font-family: 'Centra No1';
@@ -315,14 +346,14 @@ main {
     position: relative;
 }
 
-#background img{
+#background img {
     position: absolute;
     margin-top: 40.61px;
     margin-left: -131.8px;
     border-radius: 7px;
 }
 
-.Radgivare{
+.Radgivare {
     width: 155px;
     height: 48px;
     font-family: 'Centra No1';
@@ -335,7 +366,7 @@ main {
     margin-top: 74px;
 }
 
-.bg{
+.bg {
     background-color: #FFFFFF;
     width: 210px;
     height: 274px;
@@ -345,7 +376,7 @@ main {
     position: relative;
 }
 
-.bg img{
+.bg img {
     position: absolute;
     margin-top: 33.11px;
     margin-left: 46px;
@@ -354,17 +385,17 @@ main {
     height: 206.48px;
 }
 
-.advisor{
+.advisor {
     display: flex;
     flex-direction: row;
 }
 
-.advisor-content{
+.advisor-content {
     margin-left: 141px;
     margin-top: 97px;
 }
 
-.advisor-content h2{
+.advisor-content h2 {
     width: 220px;
     height: 32px;
     font-family: 'Centra No1';
@@ -376,7 +407,7 @@ main {
     opacity: 0.8;
 }
 
-.advisor-content img{
+.advisor-content img {
     width: 16.5px;
     height: 16.5px;
     cursor: pointer;
@@ -394,15 +425,18 @@ main {
     opacity: 0.8;
     margin-top: 25px;
 }
-footer{
-    margin-top: -15px;
+
+footer {
+    margin-top: -110px;
     font-family: 'Centra No1';
     background-color: #292A2B;
 }
-.footer{
+
+.footer {
     background-color: #292A2B;
 }
-.footer-top{
+
+.footer-top {
     width: 1440px;
     margin: 0 auto;
     height: 258.3636474609375px;
@@ -411,10 +445,14 @@ footer{
     display: flex;
 }
 
-.footer-top nav, ul, li, a{
+.footer-top nav,
+ul,
+li,
+a {
     list-style: none;
     text-decoration: none;
 }
+
 .footer-top li {
     position: relative;
     margin-top: 30px;
@@ -429,34 +467,39 @@ footer{
     color: #ccc;
     opacity: 0.7;
 }
-.footer-top a:hover{
+
+.footer-top a:hover {
     color: white;
 }
+
 .funding ul {
-    margin-top: 76px; 
+    margin-top: 76px;
     margin-left: 210px;
 }
-.logo_bottom{
+
+.logo_bottom {
     height: 88px;
     width: 196px;
     margin-left: 246px;
     margin-top: 80px;
 }
-.hi{
+
+.hi {
     opacity: 0.6;
     font-size: 0.85rem;
 }
 
 .about ul {
-    margin-top: 76px; 
+    margin-top: 76px;
     margin-left: 170px;
     color: #ccc;
 }
 
-.footer-bottom{
+.footer-bottom {
     background-color: #0B0B0B;
 }
-.ft{
+
+.ft {
     display: flex;
     color: #FFFFFF;
     width: 1440px;
@@ -465,17 +508,18 @@ footer{
     align-items: center;
     height: 60.63px;
 }
-.footer-bottom img{
+
+.footer-bottom img {
     margin-left: 260px;
     margin-right: 17.22px;
 }
 
-.footer-bottom a{
+.footer-bottom a {
     color: #FFFFFF;
     text-decoration: none;
 }
 
-.copyright p{
+.copyright p {
     margin-left: 383px;
     font-family: 'Centra No1';
     font-style: normal;
@@ -486,38 +530,44 @@ footer{
     opacity: 0.5;
 }
 
-.border-bottom{
+.border-bottom {
     display: none;
 }
-.language a{
+
+.language a {
     font-family: 'Centra No1';
     opacity: 0.6;
 }
- 
+
 @media only screen and (max-width: 375px) {
-    .container{
+    .container {
         width: 375px;
         margin: 0 auto;
     }
-    .header{
+
+    .header {
         width: 375px;
     }
-    .logo{
+
+    .logo {
         width: 98px;
         height: 44px;
         margin-left: 2px;
         margin-top: -7px;
         margin-bottom: 5px;
     }
-    .navbar-rignt{
+
+    .navbar-rignt {
         display: none;
     }
+
     main {
         width: 375px;
         background-color: #edf8ef;
         height: 3399.29px;
     }
-    .title{
+
+    .title {
         margin-top: 24px;
         width: 172px;
         height: 38px;
@@ -525,7 +575,8 @@ footer{
         font-size: 1.375rem;
         line-height: 38px;
     }
-    .content1{
+
+    .content1 {
         width: 347px;
         height: 96px;
         margin-left: 13px;
@@ -533,36 +584,40 @@ footer{
         font-size: 0.8125rem;
         line-height: 24px;
     }
-    .content2{
+
+    .content2 {
         width: 347px;
         height: 120px;
         margin-left: 13px;
-        margin-top: 10px;
+        margin-top: -10px;
         font-size: 0.8125rem;
         line-height: 24px;
     }
-    .content3{
+
+    .content3 {
         width: 347px;
         height: 48px;
         margin-left: 13px;
-        margin-top: 10px;
+        margin-top: -10px;
         font-size: 0.8125rem;
         line-height: 24px;
     }
-    .team{
+
+    .team {
         margin-left: 13px;
         margin-top: 48px;
         width: 56px;
-        height: 38px;   
+        height: 38px;
         font-size: 1.375rem;
         line-height: 38px;
     }
 
-    .main-content{
+    .main-content {
         display: flex;
         flex-direction: column;
     }
-    .background{
+
+    .background {
         width: 240.72px;
         height: 369.2px;
         margin-left: 13px;
@@ -570,7 +625,8 @@ footer{
         border-radius: 6px;
         position: relative;
     }
-    .background img{
+
+    .background img {
         position: absolute;
         margin-top: 39.4px;
         border-radius: 7px;
@@ -578,28 +634,31 @@ footer{
         width: 310.59px;
         height: 298.63px;
     }
-    .content-right{
+
+    .content-right {
         margin-top: 40px;
         margin-left: 13px;
     }
-    .content-right h2{
+
+    .content-right h2 {
         width: 193px;
         height: 28px;
         font-size: 1.25rem;
         font-weight: 800;
     }
 
-    .content-right img{
+    .content-right img {
         width: 16.75px;
         height: 16.75px;
     }
 
-    .content-right p{
+    .content-right p {
         width: 347px;
         height: 216px;
         font-size: 0.8125rem;
         line-height: 24px;
     }
+
     #background {
         background-color: #FFFFFF;
         width: 241.53px;
@@ -609,11 +668,13 @@ footer{
         border-radius: 6px;
         position: relative;
     }
-    #main-content{
+
+    #main-content {
         display: flex;
         flex-direction: column-reverse;
     }
-    #background img{
+
+    #background img {
         width: 310.08px;
         height: 283.48px;
         position: absolute;
@@ -621,19 +682,21 @@ footer{
         margin-left: -108.8px;
         border-radius: 7px;
     }
-    .advisor{
+
+    .advisor {
         flex-direction: column;
     }
-    
-    .Radgivare{
+
+    .Radgivare {
         width: 100px;
         height: 38px;
         font-size: 1.375rem;
         line-height: 38px;
         margin-left: 13px;
-        margin-top: 56px;
+        margin-top: 36px;
     }
-    .bg{
+
+    .bg {
         width: 187.78px;
         height: 245.56px;
         margin-left: 13px;
@@ -641,7 +704,8 @@ footer{
         border-radius: 6px;
         position: relative;
     }
-    .bg img{
+
+    .bg img {
         position: absolute;
         margin-top: 31.78px;
         margin-left: 34.67px;
@@ -649,19 +713,23 @@ footer{
         width: 186.33px;
         height: 183.44px;
     }
-    .advisor-content{
+
+    .advisor-content {
         margin-left: 13px;
         margin-top: 40px;
     }
-    .advisor-content h2{
+
+    .advisor-content h2 {
         width: 183px;
         height: 24px;
         font-size: 1.25rem;
         line-height: 34px;
     }
-    .advisor-content img{
+
+    .advisor-content img {
         cursor: pointer;
     }
+
     .advisor-content p {
         width: 347px;
         height: 66px;
@@ -669,9 +737,9 @@ footer{
         line-height: 22px;
         margin-top: 19.09px;
     }
-   
 
-    .logo_bottom{
+
+    .logo_bottom {
         height: 146px;
         width: 66px;
         margin-left: 4px;
@@ -684,8 +752,8 @@ footer{
     }
 
     .funding li {
-        margin-top: 20px; 
-        
+        margin-top: 20px;
+
     }
 
     .about ul {
@@ -693,11 +761,11 @@ footer{
         margin-left: -14px;
     }
 
-    .about  li {
+    .about li {
         margin-top: 20px;
     }
 
-    .border-bottom{
+    .border-bottom {
         display: block;
         border-bottom: 1px solid #ccc;
         width: 300px;
@@ -705,11 +773,11 @@ footer{
         margin-left: 27px;
     }
 
-    .border-bottom:hover{
+    .border-bottom:hover {
         color: violet;
     }
 
-    .footer-top{
+    .footer-top {
         height: 455px;
         width: 375px;
         margin-top: 0px;
@@ -717,7 +785,7 @@ footer{
         flex-direction: column;
     }
 
-    .logo_bottom{
+    .logo_bottom {
         height: 146px;
         width: 66px;
         margin-left: 4px;
@@ -730,8 +798,8 @@ footer{
     }
 
     .funding li {
-        margin-top: 20px; 
-        
+        margin-top: 20px;
+
     }
 
     .about ul {
@@ -739,11 +807,11 @@ footer{
         margin-left: -14px;
     }
 
-    .about  li {
+    .about li {
         margin-top: 20px;
     }
 
-    .border-bottom{
+    .border-bottom {
         display: block;
         border-bottom: 1px solid #ccc;
         width: 300px;
@@ -751,29 +819,33 @@ footer{
         margin-left: 27px;
     }
 
-    .border-bottom:hover{
+    .border-bottom:hover {
         color: violet;
     }
 
-    .ft{
+    .ft {
         width: 375px;
         flex-direction: column;
-        align-items:flex-start;
+        align-items: flex-start;
     }
-    .footer-bottom{
+
+    .footer-bottom {
         width: 375px;
         height: 133px;
         flex-direction: column;
         margin-top: -50px;
     }
-    .language{
+
+    .language {
         padding-top: 27px;
     }
-    .footer-bottom img{
+
+    .footer-bottom img {
         margin-left: 260px;
         margin-left: 21px;
     }
-    .copyright p{
+
+    .copyright p {
         width: 298px;
         height: 48px;
         margin-left: 21px;
@@ -781,8 +853,9 @@ footer{
         font-size: 0.875rem;
         line-height: 24px;
         margin-top: 15px;
-    } 
-    .menu{
+    }
+
+    .menu {
         display: block;
         margin-left: 234px;
         cursor: pointer;
