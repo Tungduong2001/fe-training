@@ -34,6 +34,51 @@ video {
     margin: 0 auto;
 }
 
+
+/* Nút Dropdown*/
+#nut_dropdown {
+    color: white;
+    padding-top: 2px;
+    cursor: pointer;
+}
+
+/* Thiết lập vị trí cho thẻ div với class dropdown*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+    outline: none;
+}
+
+/* Nội dung Dropdown */
+.noidung_dropdown {
+    /*Ẩn nội dung các đường dẫn*/
+    display: none;
+    position: absolute;
+    background-color: #94d8da;
+    min-width: 90px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Thiết kế style cho các đường dẫn trong Dropdown */
+.noidung_dropdown a {
+    color: #FFFFFF;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+/* thay đổi màu background khi hover vào đường dẫn */
+.noidung_dropdown a:hover {
+    background-color: #ddd;
+}
+
+/* hiển thị nội dung dropdown khi hover */
+.dropdown:hover .noidung_dropdown {
+    display: block;
+}
+
+
 .header-top {
     position: relative;
     display: flex;
@@ -71,12 +116,7 @@ video {
     color: #FFFFFF;
 }
 
-.insight a {
-    width: 10px;
-    height: 5px;
-    margin-top: 2px;
-    color: #FFFFFF;
-}
+
 
 .administration {
     display: flex;
@@ -95,12 +135,6 @@ video {
     color: #FFFFFF;
 }
 
-.administration a {
-    width: 10px;
-    height: 5px;
-    margin-top: 2px;
-    color: #FFFFFF;
-}
 
 .profile {
     display: flex;
@@ -116,12 +150,6 @@ video {
     font-family: 'Centra No1';
 }
 
-.profile a {
-    color: #A78730;
-    margin-top: 6.5px;
-    width: 10px;
-    height: 5px;
-}
 
 .material-symbols-outlined {
     font-variation-settings:
